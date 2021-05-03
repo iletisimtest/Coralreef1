@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="13.61s"
+		durationms="13612"
+		type="root"
+		rid="d6eab5980b19202"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="TEST"
+		rxversion="9.3.2.0"
+		host="APP02"
+		osversion="Windows Server 2012 R2 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="25.3.2021 15:17:15"
+		timestampiso="2021-03-25T12:17:15"
+		endtime="25.3.2021 15:17:29"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SatisSiparisi">
+		<detail>
+			SatisSiparisi
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'CoralReefTestRepository.CoralReef1.MessageLabel' does not contain the specified value (actual='Üretim·emrinde·kullanılacak·yarı·mamüller·içinde·üretim·emri·oluşturulsun·mu·?', expected='Üretim·emrinde·kullanılacak·yarı·mamüller·içinde·üretim·emri·oluşturulsun·mu?').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.039"
+			timeRelativeToTestModuleStartTime="00:08.039"
+			timeWallClock="15:17:23"
+			time="00:08.039"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>satisSiparisiFisNo
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.067"
+			timeRelativeToTestModuleStartTime="00:08.067"
+			timeWallClock="15:17:23"
+			time="00:08.067"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeContains (Text&gt;'&#220;retim emrinde kullan&#305;lacak yar&#305; mam&#252;ller i&#231;inde &#252;retim emri olu&#351;turulsun mu?') on item 'CoralReef1.MessageLabel'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='CoralReef']/text[@visible='True' and @accessiblerole='StaticText']"
+				itempath="text[@visible='True' and @accessiblerole='StaticText']"
+				fullname="CoralReefTestRepository.CoralReef1.MessageLabel"
+				id="2652e35bb0b041f980d69965992c6f3c"
+				timeout="60000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+				codeline="95"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.148"
+			timeRelativeToTestModuleStartTime="00:10.148"
+			timeWallClock="15:17:25"
+			time="00:10.148"
+			level="Warn"
+			category="WinForms"
+			errimg="images_SatisSip_dfba9802\SatisSip_dfba9802_3be98ea3_trace.jpg"
+			errthumb="images_SatisSip_dfba9802\SatisSip_dfba9802_3be98ea3_trace_thumb.jpg">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'CoralReef' (pid 3624)<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+				codeline="96"
+				loglvl="Warn"
+				itemindex="19">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.460"
+			timeRelativeToTestModuleStartTime="00:13.460"
+			timeWallClock="15:17:29"
+			time="00:13.460"
+			level="Failure"
+			category="Validation"
+			errimg="images_SatisSip_dfba9802\SatisSip_dfba9802_87ef3b5e_trace.jpg"
+			errthumb="images_SatisSip_dfba9802\SatisSip_dfba9802_87ef3b5e_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'CoralReefTestRepository.CoralReef1.MessageLabel' does not contain the specified value (actual='Üretim·emrinde·kullanılacak·yarı·mamüller·içinde·üretim·emri·oluşturulsun·mu·?', expected='Üretim·emrinde·kullanılacak·yarı·mamüller·içinde·üretim·emri·oluşturulsun·mu?').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='CoralReef']/text[@visible='True' and @accessiblerole='StaticText']"
+				itempath="text[@visible='True' and @accessiblerole='StaticText']"
+				fullname="CoralReefTestRepository.CoralReef1.MessageLabel"
+				id="2652e35bb0b041f980d69965992c6f3c"
+				timeout="60000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+				codeline="96"
+				loglvl="Failure"
+				itemindex="19">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.476"
+			timeRelativeToTestModuleStartTime="00:13.476"
+			timeWallClock="15:17:29"
+			time="00:13.476"
+			level="Error"
+			category="Module"
+			errimg="images_SatisSip_dfba9802\SatisSip_dfba9802_87ef3b5e_trace.jpg"
+			errthumb="images_SatisSip_dfba9802\SatisSip_dfba9802_87ef3b5e_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'CoralReefTestRepository.CoralReef1.MessageLabel' does not contain the specified value (actual='Üretim·emrinde·kullanılacak·yarı·mamüller·içinde·üretim·emri·oluşturulsun·mu·?', expected='Üretim·emrinde·kullanılacak·yarı·mamüller·içinde·üretim·emri·oluşturulsun·mu?').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   at Ranorex.Validate.AttributeContainsInternal(IElement element, String name, String value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeContainsInternal(RepoItemInfo itemInfo, String name, String value, String message, Options options)
+   at Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value, String message, Options options)
+   at Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value, String message, Boolean exceptionOnFail)
+   at Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value)
+   at CoralReefTest.SatisSiparisi.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs:line 96
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+				codeline="96"
+				type="repoitem"
+				path="/form[@processname='CoralReef']/text[@visible='True' and @accessiblerole='StaticText']"
+				itempath="text[@visible='True' and @accessiblerole='StaticText']"
+				fullname="CoralReefTestRepository.CoralReef1.MessageLabel"
+				id="2652e35bb0b041f980d69965992c6f3c"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="19">
+			</metainfo>
+		</item>
+	</activity>
+</report>

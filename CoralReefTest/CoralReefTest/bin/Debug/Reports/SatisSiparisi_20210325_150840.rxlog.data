@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="13.96s"
+		durationms="13955"
+		type="root"
+		rid="10e64a5f9eb2cbdb"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="TEST"
+		rxversion="9.3.2.0"
+		host="APP02"
+		osversion="Windows Server 2012 R2 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="25.3.2021 15:08:44"
+		timestampiso="2021-03-25T12:08:44"
+		endtime="25.3.2021 15:08:58"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SatisSiparisi">
+		<detail>
+			SatisSiparisi
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.053"
+			timeRelativeToTestModuleStartTime="00:07.053"
+			timeWallClock="15:08:51"
+			time="00:07.053"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>satisSiparisiFisNo
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.083"
+			timeRelativeToTestModuleStartTime="00:07.083"
+			timeWallClock="15:08:51"
+			time="00:07.083"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CoralReef1.Kaydet' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='CoralReef']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Kaydet']/button[@accessiblekeyboardshortcut='Ctrl+S']"
+				itempath="?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Kaydet']/button[@accessiblekeyboardshortcut='Ctrl+S']"
+				fullname="CoralReefTestRepository.CoralReef1.Kaydet"
+				id="e0e21760495b4d0d8f62aab8e1b26ae9"
+				timeout="60000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+				codeline="95"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.123"
+			timeRelativeToTestModuleStartTime="00:09.123"
+			timeWallClock="15:08:53"
+			time="00:09.123"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'CoralReef' (pid 3624)<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+				codeline="96"
+				loglvl="Warn"
+				itemindex="15">
+			</metainfo>
+		</item>
+	</activity>
+</report>

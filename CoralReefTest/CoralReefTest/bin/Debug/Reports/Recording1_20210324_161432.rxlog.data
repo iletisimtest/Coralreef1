@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="14.53s"
+		durationms="14528"
+		type="root"
+		rid="7a3981ee1fb75a0"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="TEST"
+		rxversion="9.3.2.0"
+		host="APP02"
+		osversion="Windows Server 2012 R2 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="24.3.2021 16:14:36"
+		timestampiso="2021-03-24T13:14:36"
+		endtime="24.3.2021 16:14:50"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.916"
+			timeRelativeToTestModuleStartTime="00:08.916"
+			timeWallClock="16:14:45"
+			time="00:08.916"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>satisSiparisiFisNo
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.943"
+			timeRelativeToTestModuleStartTime="00:08.943"
+			timeWallClock="16:14:45"
+			time="00:08.943"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SatisSiparisi.Yeni' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controltext='Satış Siparişi - CoralReef Üretim Takip']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Objects Creation']/button[@accessiblename='Yeni']"
+				itempath="?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Objects Creation']/button[@accessiblename='Yeni']"
+				fullname="CoralReefTestRepository.SatisSiparisi.Yeni"
+				id="fafcd38ba28c4b5086d248af2a54de4e"
+				timeout="60000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\Recording1.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.436"
+			timeRelativeToTestModuleStartTime="00:11.436"
+			timeWallClock="16:14:47"
+			time="00:11.436"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'CoralReef' (pid 152)<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\Recording1.cs"
+				codeline="96"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.238"
+			timeRelativeToTestModuleStartTime="00:13.238"
+			timeWallClock="16:14:49"
+			time="00:13.238"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'ControlText' from item 'SatisSiparisiDetaylari.FisNo' and assigning its value to variable 'satisSiparisiFisNo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controltext='Satış Siparişi']/container[@controlname='viewSitePanel']/?/?/element[@controlname='Number(5)']"
+				itempath="container[@controlname='viewSitePanel']/?/?/element[@controlname='Number(5)']"
+				fullname="CoralReefTestRepository.SatisSiparisiDetaylari.FisNo"
+				id="8c9bbc669db646399b85c172a4613a37"
+				timeout="60000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\Recording1.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.527"
+			timeRelativeToTestModuleStartTime="00:14.527"
+			timeWallClock="16:14:50"
+			time="00:14.527"
+			level="Info"
+			category="User">
+			<message>
+				SPR118
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\Recording1.cs"
+				codeline="103"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

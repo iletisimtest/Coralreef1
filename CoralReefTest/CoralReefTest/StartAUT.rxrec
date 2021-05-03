@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a0c0c274-adc5-42c5-9048-f7d3ce5c4810"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="CoralReefTest">
+	</codegen>
+	<variables>
+		<var
+		id="b65b0d42-0561-4861-96c6-ab104e22da1d"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files (x86)\İletişim Yazılım\CoralReef\CoralReef.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="4bdd301b-782e-4439-8fa3-ae727cf7c9c6"
+	name="CoralReefTestRepository"
+	relativepath="CoralReefTestRepository.rxrep">
+		<codegen
+		classname="CoralReefTestRepository"
+		namespace="CoralReefTest">
+		</codegen>
+		<rootfolder
+		id="42dfcedf-318e-46e3-9953-ed41d0550cbe"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

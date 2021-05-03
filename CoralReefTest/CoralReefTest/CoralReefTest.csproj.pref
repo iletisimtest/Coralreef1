@@ -1,0 +1,26 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="IslemAra.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="CoralReefTest.rxtst" />
+    <Element value="SatisSiparisi.UserCode.cs" />
+    <Element value="StartAUT.rxrec" />
+    <Element value="CloseAUT.rxrec" />
+    <Element value="IslemAra.rxrec" />
+    <Element value="SatisSiparisi.rxrec" />
+    <Element value="AlimSiparisi.rxrec" />
+    <Element value="AlimSiparisi.UserCode.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections">
+      <Element value="CoralReefTest.AlimSiparisi.clickToTableCell(RepoItemInfo tableItemInfo, String columnName, Int32 rowIndex)" />
+      <Element value="CoralReefTest.AlimSiparisi.writeToTableCell(RepoItemInfo tableItemInfo, String columnName, Int32 rowIndex, String value)" />
+      <Element value="CoralReefTest.AlimSiparisi.clickToTableCell(RepoItemInfo tableItemInfo, String columnName, Int32 rowIndex)" />
+      <Element value="CoralReefTest.AlimSiparisi.clickToTableCellWithSearchValue(RepoItemInfo tableItemInfo, String kolonAdi, String aranacakDeger)" />
+      <Element value="CoralReefTest.AlimSiparisi.dsadas()" />
+      <Element value="CoralReefTest.SatisSiparisi.clickToTableCellWithSearchValue(RepoItemInfo tableItemInfo, String kolonAdi, String aranacakDeger)" />
+    </Array>
+  </Properties>
+</Properties>

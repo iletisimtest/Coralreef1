@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="CoralReefTest"
+      id="2b882219-35da-4c34-a7ed-c831872d2194"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="CoralReefTest"
+      id="2b882219-35da-4c34-a7ed-c831872d2194"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

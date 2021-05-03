@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.4m"
+		durationms="85002"
+		type="root"
+		rid="2316c2c5b6abee0"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="TEST"
+		rxversion="9.3.2.0"
+		host="APP02"
+		osversion="Windows Server 2012 R2 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="25.3.2021 17:16:46"
+		timestampiso="2021-03-25T14:16:46"
+		endtime="25.3.2021 17:18:11"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AlimSiparisi">
+		<detail>
+			AlimSiparisi
+		</detail>
+		<errormessage>
+			Attribute 'Enabled' of element for item 'CoralReefTestRepository.MainForm.Onayla' does not match the specified value (Failed to find item 'CoralReefTestRepository.MainForm.Onayla'. Please check that your whitelist allows Ranorex to access the process. No element found for path '/form[@controlname='MainForm']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Default']/button[121]' at step 'form[@controlname='MainForm']' after 1183 attempts within 2.5m.).
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.002"
+			timeRelativeToTestModuleStartTime="00:08.002"
+			timeWallClock="17:16:54"
+			time="00:08.002"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varAlimSiparisiFisNo
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.032"
+			timeRelativeToTestModuleStartTime="00:08.032"
+			timeWallClock="17:16:54"
+			time="00:08.032"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='False') on item 'MainForm.Onayla'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Default']/button[121]"
+				itempath="?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Default']/button[121]"
+				fullname="CoralReefTestRepository.MainForm.Onayla"
+				id="ed90f603f4e04ea7a66b5709571f7bee"
+				timeout="150000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\AlimSiparisi.cs"
+				codeline="95"
+				itemindex="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.436"
+			timeRelativeToTestModuleStartTime="00:09.436"
+			timeWallClock="17:16:55"
+			time="00:09.436"
+			level="Warn"
+			category="WinForms"
+			errimg="images_AlimSipa_fbe9c483\AlimSipa_fbe9c483_35ec94fb_trace.jpg"
+			errthumb="images_AlimSipa_fbe9c483\AlimSipa_fbe9c483_35ec94fb_trace_thumb.jpg">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'CoralReef' (pid 4320)<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\AlimSiparisi.cs"
+				codeline="96"
+				loglvl="Warn"
+				itemindex="20">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:24.810"
+			timeRelativeToTestModuleStartTime="01:24.810"
+			timeWallClock="17:18:11"
+			time="01:24.810"
+			level="Failure"
+			category="Validation"
+			errimg="images_AlimSipa_fbe9c483\AlimSipa_fbe9c483_14f91cd2_trace.jpg"
+			errthumb="images_AlimSipa_fbe9c483\AlimSipa_fbe9c483_14f91cd2_trace_thumb.jpg">
+			<message>
+				Attribute 'Enabled' of element for item 'CoralReefTestRepository.MainForm.Onayla' does not match the specified value (Failed to find item 'CoralReefTestRepository.MainForm.Onayla'. Please check that your whitelist allows Ranorex to access the process. No element found for path '/form[@controlname='MainForm']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Default']/button[121]' at step 'form[@controlname='MainForm']' after 1183 attempts within 2.5m.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Default']/button[121]"
+				itempath="?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Default']/button[121]"
+				fullname="CoralReefTestRepository.MainForm.Onayla"
+				id="ed90f603f4e04ea7a66b5709571f7bee"
+				timeout="150000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\AlimSiparisi.cs"
+				codeline="96"
+				failedStep="form[@controlname='MainForm']"
+				bestPathPrefix=""
+				loglvl="Failure"
+				itemindex="20">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:24.835"
+			timeRelativeToTestModuleStartTime="01:24.835"
+			timeWallClock="17:18:11"
+			time="01:24.835"
+			level="Error"
+			category="Module"
+			errimg="images_AlimSipa_fbe9c483\AlimSipa_fbe9c483_14f91cd2_trace.jpg"
+			errthumb="images_AlimSipa_fbe9c483\AlimSipa_fbe9c483_14f91cd2_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Enabled' of element for item 'CoralReefTestRepository.MainForm.Onayla' does not match the specified value (Failed to find item 'CoralReefTestRepository.MainForm.Onayla'. Please check that your whitelist allows Ranorex to access the process. No element found for path '/form[@controlname='MainForm']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Default']/button[121]' at step 'form[@controlname='MainForm']' after 1183 attempts within 2.5m.).<br/>Failed to find item 'CoralReefTestRepository.MainForm.Onayla'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/form[@controlname='MainForm']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Default']/button[121]' at step 'form[@controlname='MainForm']' after 1183 attempts within 2.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Boolean exceptionOnFail)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at CoralReefTest.AlimSiparisi.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\AlimSiparisi.cs:line 96
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\AlimSiparisi.cs"
+				codeline="96"
+				type="repoitem"
+				path="/form[@controlname='MainForm']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Default']/button[121]"
+				itempath="?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Default']/button[121]"
+				fullname="CoralReefTestRepository.MainForm.Onayla"
+				id="ed90f603f4e04ea7a66b5709571f7bee"
+				timeout="150000"
+				loglvl="Error"
+				itemindex="20">
+			</metainfo>
+		</item>
+	</activity>
+</report>

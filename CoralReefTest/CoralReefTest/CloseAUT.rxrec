@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7a183692-0b29-4f59-ab45-599f876180d2"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="CoralReefTest">
+	</codegen>
+	<variables>
+		<var
+		id="63b6e7f8-5525-4045-aeaa-79fa0d881d46"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="1015e3af-99de-4257-b345-95eb28e664c2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="4bdd301b-782e-4439-8fa3-ae727cf7c9c6"
+	name="CoralReefTestRepository"
+	relativepath="CoralReefTestRepository.rxrep">
+		<codegen
+		classname="CoralReefTestRepository"
+		namespace="CoralReefTest">
+		</codegen>
+		<rootfolder
+		id="42dfcedf-318e-46e3-9953-ed41d0550cbe"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

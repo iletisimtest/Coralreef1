@@ -1,0 +1,579 @@
+﻿<repository
+id="4bdd301b-782e-4439-8fa3-ae727cf7c9c6"
+name="CoralReefTestRepository">
+	<codegen
+	classname="CoralReefTestRepository"
+	namespace="CoralReefTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="42dfcedf-318e-46e3-9953-ed41d0550cbe"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="81774e3c-2f98-4934-8c68-06454a88101e"
+		isrooted="True"
+		name="LoginScreen"
+		refimgid="a631d25c-09c9-4f81-8863-3a386354f356"
+		refpath="/form[@controlname='LoginScreen']"
+		searchtimeout="120000ms"
+		usecache="True">
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="81466fa2-3c53-44dd-a997-897325808469"
+			name="txtUsername"
+			refimgid="91eaa194-f2d3-464c-8035-307e3053f2de"
+			refpath="/form[@controlname='LoginScreen']/element[@controlname='UserEdit']/text[@controlname='_maskBox']"
+			searchtimeout="120000ms">
+				/form[@controlname='LoginScreen']/?/?/text[@controlname='_maskBox']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="8cb7b1e6-82b3-43ad-ad7c-f4d11fef3dc7"
+			name="TextMaskBox1"
+			refimgid="61d6e317-f14b-4a5d-8249-cd98b05ffd19"
+			refpath="/form[@controlname='LoginScreen']/element[@controlname='PasswordEdit']/text[@controlname='_maskBox']"
+			searchtimeout="120000ms">
+				/form[@controlname='LoginScreen']/element[@controlname='PasswordEdit']/text[@controlname='_maskBox']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="3e7e98f2-9d77-4d35-be45-b56a0ff43237"
+			name="SİSTEMEBAĞLAN"
+			refimgid="ae71c83e-3b6f-47fc-8c70-4711b496e829"
+			refpath="/form[@controlname='LoginScreen']/element[@controlname='LoginButton']/button[@accessiblename='SİSTEME BAĞLAN']"
+			searchtimeout="120000ms">
+				/form[@controlname='LoginScreen']/?/?/button[@accessiblename='SİSTEME BAĞLAN']
+			</item>
+			<basepath>
+				/form[@controlname='LoginScreen']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB+SURBVDhPpc4BDsAgCANAns7T/JmzDBaGihqb
+NJkjnNJJmLmWUqoez8LEFQVg1dE6thyBD8HTUDmE+OUhIAMFIhKX0TGABsQv+W4BUrdkBTwF5NYJ
+gpklBZAOadWRJAXsO0OmQNcJsgXIVS0jJAV075clsJNrALkGEA+8f4geFQSdcR/ijqgAAAAASUVO
+RK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="2a82f78e-3f4b-4cff-8380-63085bb54028"
+		isrooted="True"
+		name="MainForm"
+		refimgid="4a044447-f05a-49ce-8905-66d8e0bc80b8"
+		refpath="/form[@controlname='MainForm']"
+		searchtimeout="120000ms"
+		usecache="True">
+			<folder
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="5579cb27-69ed-4e7a-8fd8-36343e059f51"
+			isrooted="True"
+			name="DockPanelNavigation"
+			refpath="/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="a098d5ad-e57e-4f8f-b9b3-5d09a1c2ec5d"
+				name="ButtonBul"
+				refimgid="bd4038d1-98a8-4984-ab72-f8d7b1db6e95"
+				refpath="/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']/container/container/element/container/container/element[@controlname='btFind']/button[@accessiblename='Bul']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']//container[@controlname='FindControlCore']/?/?/element[@controlname='btFind']/button[@accessiblename='Bul']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="f983b163-9701-4cdb-8f02-52bd821db7de"
+				name="txtIslemAra"
+				refimgid="c1650a3b-27ad-464f-8f41-b7ccb35d8926"
+				refpath="/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']/container/container/element/container/container/element[@controlname='teFind']/text[@controltypename='TextBoxMaskBox']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']//container[@controlname='FindControlCore']/container[@controlname='layoutControl1']/?/?/text[@controltypename='TextBoxMaskBox']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="22fcab53-f4e2-4667-a2d0-1399f0c88a6e"
+				name="CaptionRow0"
+				refimgid="81671c26-064b-4609-ba92-f439bb7e7b92"
+				refpath="/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']/container/container/element/tree/container/treeitem[@accessiblename='Düğüm0']/cell[@accessiblename='Caption row 0']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']//tree[@accessiblerole='Outline']/?/?/treeitem[@accessiblename='Düğüm0']/cell[@accessiblename='Caption row 0']
+				</item>
+				<item
+				addcaps="treeitem,accessible"
+				capname="treeitem"
+				id="03addd18-ea83-46b3-a88e-12d30ef8ef67"
+				name="IlkIslem"
+				refimgid="fcaa3ee0-80e1-490d-a895-4c7c388fe8b8"
+				refpath="/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']/container[@controlname='dockPanelNavigation_Container']/container[@controlname='navigation']/element[@controlname='control']/tree[@accessiblerole='Outline']/container[@accessiblename='Veri Paneli']/treeitem[@accessiblename='Düğüm0']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']/container[@controlname='dockPanelNavigation_Container']//tree[@accessiblerole='Outline']/?/?/treeitem[@accessiblename='Düğüm0']
+				</item>
+				<basepath>
+					/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']
+				</basepath>
+			</folder>
+			<item
+			addcaps="table,accessible"
+			capname="table"
+			id="f9ac4355-5d3b-49ca-bb22-8e323ef18578"
+			name="FilterTable"
+			refimgid="3741e55d-7132-41cc-a947-ad07d21ae33f"
+			refpath="/form[@controlname='MainForm']/container[@controlname='viewSitePanel']/element[@controltypename='GridControl']/table[@accessiblerole='Table']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/container[@controlname='viewSitePanel']/?/?/table[@accessiblerole='Table']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="ed90f603-f4e0-4ea7-a66b-5709571f7bee"
+			name="Onayla"
+			refimgid="b8fcaeb4-a5e7-424c-92eb-57d1760887b4"
+			refpath="/form[@controlname='4b0cfa50-cb62-4aec-ad7e-f829bd69b7c4']/element[@controltypename='XafRibbonControl']/container[@accessiblename='Lower Ribbon']/container[@accessiblename='Ana Menü']/toolbar[@accessiblename='Default']/button[121]"
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Default']/button[121]
+			</item>
+			<basepath>
+				/form[@controlname='MainForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB/SURBVDhPxZBRCoAwDEM9eo+2m00zmpG1ZaJ+
+GHiM1fQxPOywPrEbtOusAlAtKqH/XACknwWgWop4txaAaknxXilorQ1YjvfJ1U2CGBQ1UbQKvFzO
+/NwK8BHRGRcZXU4ClmOJM55K+gd8BcLnIjyRrWCLLL4TgM8C8L8ADIH1E0nJZZ3NpdiuAAAAAElF
+TkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="82532593-1937-4b66-8f5d-3e93b36d984b"
+		isrooted="True"
+		name="LoginScreen1"
+		refpath="/form[@controltypename='LoginScreen']"
+		searchtimeout="120000ms"
+		usecache="True">
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="bfc64aa4-fa53-4f54-ba88-0a3a6fe64ee8"
+			name="TextMaskBox"
+			refimgid="3146503b-d8ff-4b31-966b-3051c6fc8d3f"
+			refpath="/form[@controltypename='LoginScreen']/element/text[@controlname='_maskBox']"
+			searchtimeout="30000ms">
+				/form[@controltypename='LoginScreen']/?/?/text[1]
+			</item>
+			<basepath>
+				/form[@controltypename='LoginScreen']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="9fcec3df-783c-47d8-8605-71c6426648ca"
+		isrooted="True"
+		name="SatisSiparisi"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="fafcd38b-a28c-4b50-86d2-48af2a54de4e"
+			name="Yeni"
+			refimgid="d9e4398f-072c-4033-b171-9a82b8a64c46"
+			searchtimeout="30000ms">
+				/form[@controltext='Satış Siparişi - CoralReef Üretim Takip']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Objects Creation']/button[@accessiblename='Yeni']
+			</item>
+			<basepath>
+				/form[@controltext='Satış Siparişi - CoralReef Üretim Takip']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB/SURBVDhPxZBRCoAwDEM9eo+2m00zmpG1ZaJ+
+GHiM1fQxPOywPrEbtOusAlAtKqH/XACknwWgWop4txaAaknxXilorQ1YjvfJ1U2CGBQ1UbQKvFzO
+/NwK8BHRGRcZXU4ClmOJM55K+gd8BcLnIjyRrWCLLL4TgM8C8L8ADIH1E0nJZZ3NpdiuAAAAAElF
+TkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="c3ac9da6-b7f2-4446-8524-b7636ff51c2f"
+		isrooted="True"
+		name="SatisSiparisiDetaylari"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="8c9bbc66-9db6-4639-9b85-c172a4613a37"
+			name="FisNo"
+			refimgid="4c4994fd-3217-48e1-b431-a4c3c2914557"
+			searchtimeout="30000ms">
+				/form[@controltext='Satış Siparişi']/container[@controlname='viewSitePanel']/?/?/element[@controlname='Number(5)']
+			</item>
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="8a863eae-b899-481e-99d6-25433cb29f4a"
+			name="CariHesap"
+			refimgid="d62661ce-9792-43e7-9b89-de3559029fff"
+			refpath="/form[@controlname='e4b86056-00b9-4fb8-8a94-535ac19f94c1']/container[@controlname='viewSitePanel']/container[@caption='']/element[@controlname='ClientCard(7)']"
+			searchtimeout="30000ms">
+				/form[@controltext='Satış Siparişi']/container[@controlname='viewSitePanel']/?/?/element[@controlname='ClientCard(7)']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="d5f60be8-6d64-4e9f-a97d-bc2649f2fd0a"
+			name="Yeni"
+			refimgid="541d2c5e-8ae9-4dda-90a0-8bca7cb5421c"
+			refpath="/form[@controlname='181bb584-72e1-4b7c-92ef-07c303937169']/container[@controlname='viewSitePanel']/container[@caption='']/container[@controlname='Lines(20)']/element[@controlname='barDockControlTop']/element[@controltypename='DockedBarControl']/toolbar[@accessiblename='Araç çubuğu']/button[@accessiblename='Yeni']"
+			searchtimeout="30000ms">
+				/form[@controltext='Satış Siparişi']/container[@controlname='viewSitePanel']/?/?/container[@controlname='Lines(20)']//toolbar[@accessiblename='Araç çubuğu']/button[@accessiblename='Yeni']
+			</item>
+			<item
+			addcaps="table,accessible"
+			capname="table"
+			id="6912de24-00c8-4d39-8954-bf4c45bfbfd8"
+			name="Table"
+			refimgid="f1cbec10-8f6a-4b26-ac05-d8050a730a5a"
+			searchtimeout="30000ms">
+				/form[@controltext='Satış Siparişi']/container[@controlname='viewSitePanel']/?/?/container[@controlname='Lines(20)']//table[@accessiblerole='Table'][2]
+			</item>
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="07d67d43-4df2-4e27-8fe9-48067aad42e2"
+			name="FisTarihi"
+			refimgid="23536450-b404-4344-9adf-fd8ef4062001"
+			refpath="/form[@controlname='181bb584-72e1-4b7c-92ef-07c303937169']/container[@controlname='viewSitePanel']/container[@caption='']/element[@controlname='Date(6)']"
+			searchtimeout="30000ms">
+				/form[@controltext='Satış Siparişi']/container[@controlname='viewSitePanel']/?/?/element[@controlname='Date(6)']
+			</item>
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="26f471cc-2a5d-4c3a-a923-9f60cd09915f"
+			name="SiparisDurumu"
+			refimgid="2ad35d6a-73e2-416b-b0ca-d1f3e8e847db"
+			refpath="/form[@controlname='294c51e3-4901-40d7-b882-e55264dd8f2e']/container[@controlname='viewSitePanel']/container[@caption='']/element[@controlname='OrderStatus(14)']"
+			searchtimeout="30000ms">
+				/form[@controltext='Satış Siparişi']/container[@controlname='viewSitePanel']/?/?/element[@controlname='OrderStatus(14)']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="484c0de2-79bb-4971-a824-602387e406dd"
+			name="UretimEmriOlustur"
+			refimgid="0e49f6fc-0ec9-4144-b435-df425f717994"
+			refpath="/form[@controlname='c9dd565e-1882-4469-abf0-05e06bbba1cd']/element[@controltypename='XafRibbonControl']/container[@accessiblename='Lower Ribbon']/container[@accessiblename='Ana Menü']/toolbar[@accessiblename='Görünüm']/button[@accessiblename='Üretim Emri Oluştur' and @text='Üretim Emri Oluştur' and @accessiblerole='PushButton' and @accessibledescription='Girilen ve Varsayılan Reçetesi tanımlı olan her Stok için otomatik Üretim Emri oluşturur']"
+			searchtimeout="30000ms">
+				/form[@controltext='Sat&#305;&#351; Sipari&#351;i']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='G&#246;r&#252;n&#252;m']/button[@text='&#220;retim Emri Olu&#351;tur' and @accessiblerole='PushButton' and @accessibledescription&gt;'Girilen ve Varsay&#305;lan Re&#231;etesi']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="9e5f8f94-db82-4683-917e-37a2de9dd828"
+			name="Kapat"
+			refimgid="d4ff919a-8903-4f5a-ab8b-2daef7e77dd5"
+			refpath="/form[@controlname='c9dd565e-1882-4469-abf0-05e06bbba1cd']/element[@controltypename='XafRibbonControl']/container[@accessiblename='Lower Ribbon']/container[@accessiblename='Ana Menü']/toolbar[@accessiblename='Kapat']/button[@accessiblename='Kapat']"
+			searchtimeout="30000ms">
+				/form[@controltext='Satış Siparişi']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Kapat']/button[@accessiblename='Kapat']
+			</item>
+			<basepath>
+				/form[@controltext='Satış Siparişi']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB/SURBVDhPxZBRCoAwDEM9eo+2m00zmpG1ZaJ+
+GHiM1fQxPOywPrEbtOusAlAtKqH/XACknwWgWop4txaAaknxXilorQ1YjvfJ1U2CGBQ1UbQKvFzO
+/NwK8BHRGRcZXU4ClmOJM55K+gd8BcLnIjyRrWCLLL4TgM8C8L8ADIH1E0nJZZ3NpdiuAAAAAElF
+TkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="94b92571-c35d-4600-b63e-75b1318acc33"
+		isrooted="True"
+		name="CoralReef"
+		refpath="/form[@title='']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="table,accessible"
+			capname="table"
+			id="a5942122-5346-4d39-8ac4-1732a54018dd"
+			name="Table"
+			refimgid="96767fb4-3ccc-4281-b466-2d4d9fae4563"
+			refpath="/form[@title='']/container[@caption='' and @controltypename='PopupContainerControl']/container[@controlname='LookupControlTemplate']/container[@controlname='controlsPanel']/container[@controlname='viewSitePanel']/element[@controltypename='GridControl']/table[@accessiblerole='Table']"
+			searchtimeout="30000ms">
+				/form[@title='']/?/?/container[@controlname='LookupControlTemplate']/?/?/container[@controlname='viewSitePanel']/?/?/table[@accessiblerole='Table']
+			</item>
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="4134674a-466c-49d0-a652-1a97608d7e4f"
+			name="StokKartiSearchBox"
+			refimgid="f6c4b21f-d451-4160-a66b-80aaced94af0"
+			searchtimeout="30000ms">
+				/form[@title='']//container[@controlname='controlsPanel']/?/?/container[@controlname='typeAndFindPanel']/container[@controlname='searchActionContainer']/element[@tooltip='Girilen metni kayıtlarda ara']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="ec2b4ec1-1273-4857-8f70-4e5928ab8248"
+			name="StokKartiSearchButton"
+			refimgid="c38bc30d-44ea-48e4-ba1c-ed46b86884b2"
+			searchtimeout="30000ms">
+				/form[@title='']//container[@controlname='controlsPanel']/?/?/container[@controlname='typeAndFindPanel']/container[@controlname='searchActionContainer']/element[@tooltip='Girilen metni kayıtlarda ara']/text/button[2]
+			</item>
+			<basepath>
+				/form[@title='']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABoSURBVDhP1YxRDsAgCEM5ujdnLcLCYhP929bk
+RcVXDHGF+xlw1zJRsgLuWiZKVsBdy0TJCto4n7y7AOXILbTIdxWL/IvPEHbpZZLjDyxAeO9vnSoW
+OTYbw4Ndepnk+HwBQqkz85MFZhfr3VjAqEbkaAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="d80cb17a-75d5-4f3b-882e-5a935cc25e4a"
+		isrooted="True"
+		name="CoralReef1"
+		refpath="/form[@processname='CoralReef']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="e0e21760-495b-4d0d-8f62-aab8e1b26ae9"
+			name="Kaydet"
+			refimgid="34103886-d73a-4e92-938c-a087cec5c406"
+			refpath="/form[@processname='CoralReef']/element[@controltypename='XafRibbonControl']/container[@accessiblename='Lower Ribbon']/container[@accessiblename='Ana Menü']/toolbar[@accessiblename='Kaydet']/button[@accessiblename='Kaydet' and @accessiblekeyboardshortcut='Ctrl+S']"
+			searchtimeout="30000ms">
+				/form[@processname='CoralReef']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Kaydet']/button[@accessiblekeyboardshortcut='Ctrl+S']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="2652e35b-b0b0-41f9-80d6-9965992c6f3c"
+			name="MessageLabel"
+			refimgid="8b657b13-bcf0-4fa9-b738-c45e81a1cfb9"
+			searchtimeout="30000ms">
+				/form[@processname='CoralReef']/text[@visible='True' and @accessiblerole='StaticText']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="1db31c2a-db17-4396-baf0-0e916920c91a"
+			name="Evet"
+			refimgid="92fd66ce-1978-4603-8996-921da3ed3b77"
+			refpath="/form[@title='Soru']/element[@controltypename='SimpleButton' and @instance='0']/button[@accessiblename='E&amp;vet']"
+			searchtimeout="30000ms">
+				/form[@processname='CoralReef']/?/?/button[@accessiblename='E&amp;vet']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="d7dad76e-36e3-4896-bab1-0406627b0ee7"
+			name="ButtonHayır"
+			refimgid="cae610f7-c687-4187-a492-fe19e0989693"
+			refpath="/form[@title='Soru']/element[@controltypename='SimpleButton' and @instance='1']/button[@accessiblename='&amp;Hayır']"
+			searchtimeout="30000ms">
+				/form[@processname='CoralReef']/?/?/button[@accessiblename='&amp;Hay&#305;r']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="d46b37e0-1c37-48e0-a62e-b6d36f39a2fe"
+			name="Yeni"
+			refimgid="a6ee3382-b0f6-4087-8a56-f92f99229a0a"
+			refpath="/form[@controlname='1bec80a9-c399-4597-ab80-af65801e3d33']/element[@controltypename='XafRibbonControl']/container[@accessiblename='Lower Ribbon']/container[@accessiblename='Ana Menü']/toolbar[@accessiblename='Objects Creation']/button[@accessiblename='Yeni']"
+			searchtimeout="30000ms">
+				/form[@processname='CoralReef']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Objects Creation']/button[@accessiblename='Yeni']
+			</item>
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="5b3d6933-622e-495e-816f-31b3b5b33ae0"
+			name="AlimSiparisiFisNo"
+			refimgid="b4ad72a7-b947-4aa1-bb8f-89f135ea897e"
+			refpath="/form[@controlname='522f50aa-dde9-441a-b221-ba423892185f']/container[@controlname='viewSitePanel']/container[@caption='']/element[@controlname='Number(5)']"
+			searchtimeout="30000ms">
+				/form[@processname='CoralReef']/container[@controlname='viewSitePanel']/?/?/element[@controlname='Number(5)']
+			</item>
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="0f0ba7e4-ec7e-45cc-a368-62d7709f3067"
+			name="BelgeNo"
+			refimgid="65201103-3923-4b8d-85a0-bec1326cab8c"
+			refpath="/form[@controlname='522f50aa-dde9-441a-b221-ba423892185f']/container[@controlname='viewSitePanel']/container[@caption='']/element[@controlname='DocumentCode(7)']"
+			searchtimeout="30000ms">
+				/form[@processname='CoralReef']/container[@controlname='viewSitePanel']/?/?/element[@controlname='DocumentCode(7)']
+			</item>
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="72cb7f36-1c6f-427a-8373-cb51df793a9c"
+			name="CariHesap"
+			refimgid="144eb4e7-62be-48f6-86b6-b4860cc9ea7e"
+			refpath="/form[@controlname='522f50aa-dde9-441a-b221-ba423892185f']/container[@controlname='viewSitePanel']/container[@caption='']/element[@controlname='ClientCard(13)']"
+			searchtimeout="30000ms">
+				/form[@processname='CoralReef']/container[@controlname='viewSitePanel']/?/?/element[@controlname='ClientCard(13)']
+			</item>
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="2b27f1a1-b3e4-4fb0-a823-5023a332077c"
+			name="KullanilacakParaBirimiSatirlar"
+			refimgid="51df4dea-b896-468b-9777-612f323378aa"
+			refpath="/form[@controlname='522f50aa-dde9-441a-b221-ba423892185f']/container[@controlname='viewSitePanel']/container[@caption='']/element[@controlname='LineCurrency(10)']"
+			searchtimeout="30000ms">
+				/form[@processname='CoralReef']/container[@controlname='viewSitePanel']/?/?/element[@controlname='LineCurrency(10)']
+			</item>
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="3f767137-8d92-4bd9-aa6b-746034e07870"
+			name="IslemDovizTuru"
+			refimgid="1b45764d-2a1d-45f4-b536-0d3492c291ff"
+			refpath="/form[@controlname='522f50aa-dde9-441a-b221-ba423892185f']/container[@controlname='viewSitePanel']/container[@caption='']/element[@controlname='Currency(11)']"
+			searchtimeout="30000ms">
+				/form[@processname='CoralReef']/container[@controlname='viewSitePanel']/?/?/element[@controlname='Currency(11)']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="86b39e30-9702-4a68-83a8-703e0bfb9ccc"
+			name="Yeni1"
+			refimgid="f8cfb6ff-797c-47e7-9524-03a61c25f567"
+			refpath="/form[@controlname='522f50aa-dde9-441a-b221-ba423892185f']/container[@controlname='viewSitePanel']/container[@caption='']/container[@controlname='Lines(22)']/element[@controlname='barDockControlTop']/element[@controltypename='DockedBarControl']/toolbar[@accessiblename='Araç çubuğu']/button[@accessiblename='Yeni']"
+			searchtimeout="30000ms">
+				/form[@processname='CoralReef']/container[@controlname='viewSitePanel']/?/?/container[@controlname='Lines(22)']//toolbar[@accessiblename='Araç çubuğu']/button[@accessiblename='Yeni']
+			</item>
+			<item
+			addcaps="table,accessible"
+			capname="table"
+			id="29f627e9-f194-40f7-ab7d-8f3bcedd921d"
+			name="Table"
+			refimgid="e69868f9-6c7d-4121-acdd-ce436ba517b9"
+			searchtimeout="30000ms">
+				/form[@processname='CoralReef']/container[@controlname='viewSitePanel']/?/?/container[@controlname='Lines(22)']//table[@accessiblerole='Table'][2]
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="032a3692-49d2-4009-b5ab-7a7d0f5bba4f"
+			name="KaydetVeKapat"
+			refimgid="61bc8584-8d99-4a8d-9403-5af3a09f84df"
+			refpath="/form[@controlname='522f50aa-dde9-441a-b221-ba423892185f']/element[@controltypename='XafRibbonControl']/container[@accessiblename='Lower Ribbon']/container[@accessiblename='Ana Menü']/toolbar[@accessiblename='Kaydet']/button[@accessiblename='Kaydet ve Kapat' and @accessiblekeyboardshortcut='Ctrl+Return']"
+			searchtimeout="30000ms">
+				/form[@processname='CoralReef']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Kaydet']/button[@accessiblekeyboardshortcut='Ctrl+Return']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="b661e5df-0faf-49fc-9a8c-a3ad3a29f5c2"
+			name="OnayıİptalEt"
+			refimgid="5661278f-93df-431c-8d95-02861c78656e"
+			refpath="/form[@controlname='081660f4-240a-45e8-859e-36ca2bc6732f']/element[@controltypename='XafRibbonControl']/container[@accessiblename='Lower Ribbon']/container[@accessiblename='Ana Menü']/toolbar[@accessiblename='Default']/button[120]"
+			searchtimeout="30000ms">
+				/form[@processname='CoralReef']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Default']/button[120]
+			</item>
+			<basepath>
+				/form[@processname='CoralReef']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="838e4a8a-d1b6-4c7e-bd7d-9caae382a530"
+		isrooted="True"
+		name="PopupForm"
+		refpath="/form[@controlname='PopupForm']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="517f4b79-0db1-4156-87d8-f13481476b1a"
+			name="Tamam"
+			refimgid="0dd68725-a6d8-4475-922c-4f4252c2be7c"
+			refpath="/form[@controlname='PopupForm']/container[@controlname='bottomPanel']/container[@controlname='buttonsContainer']/element[@controlname='Control_30']/button[@accessiblename='Tamam']"
+			searchtimeout="30000ms">
+				/form[@controlname='PopupForm']/?/?/container[@controlname='buttonsContainer']/?/?/button[@accessiblename='Tamam']
+			</item>
+			<basepath>
+				/form[@controlname='PopupForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

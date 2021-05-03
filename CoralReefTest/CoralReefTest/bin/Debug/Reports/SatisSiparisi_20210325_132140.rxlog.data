@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="35.2s"
+		durationms="35203"
+		type="root"
+		rid="25b6a1e0e2b2c1a"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="TEST"
+		rxversion="9.3.2.0"
+		host="APP02"
+		osversion="Windows Server 2012 R2 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="25.3.2021 13:21:49"
+		timestampiso="2021-03-25T10:21:49"
+		endtime="25.3.2021 13:22:24"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SatisSiparisi">
+		<detail>
+			SatisSiparisi
+		</detail>
+		<errormessage>
+			Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.089"
+			timeRelativeToTestModuleStartTime="00:23.089"
+			timeWallClock="13:22:12"
+			time="00:23.089"
+			level="Warn"
+			category="Data"
+			errimg="images_SatisSip_53c7af0f\SatisSip_53c7af0f_feba9b30_trace.jpg"
+			errthumb="images_SatisSip_53c7af0f\SatisSip_53c7af0f_feba9b30_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>satisSiparisiFisNo
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.123"
+			timeRelativeToTestModuleStartTime="00:23.123"
+			timeWallClock="13:22:12"
+			time="00:23.123"
+			level="Info"
+			category="Mouse"
+			errimg="images_SatisSip_53c7af0f\SatisSip_53c7af0f_feba9b30_trace.jpg"
+			errthumb="images_SatisSip_53c7af0f\SatisSip_53c7af0f_feba9b30_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SatisSiparisiDetaylari.Yeni' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controltext='Satış Siparişi']/container[@controlname='viewSitePanel']/?/?/container[@controlname='Lines(20)']//toolbar[@accessiblename='Araç çubuğu']/button[@accessiblename='Yeni']"
+				itempath="container[@controlname='viewSitePanel']/?/?/container[@controlname='Lines(20)']//toolbar[@accessiblename='Araç çubuğu']/button[@accessiblename='Yeni']"
+				fullname="CoralReefTestRepository.SatisSiparisiDetaylari.Yeni"
+				id="d5f60be86d644e9fa97dbc2649f2fd0a"
+				timeout="60000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+				codeline="95"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.702"
+			timeRelativeToTestModuleStartTime="00:31.702"
+			timeWallClock="13:22:20"
+			time="00:31.702"
+			level="Warn"
+			category="WinForms"
+			errimg="images_SatisSip_53c7af0f\SatisSip_53c7af0f_50c4c5ed_trace.jpg"
+			errthumb="images_SatisSip_53c7af0f\SatisSip_53c7af0f_50c4c5ed_trace_thumb.jpg">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'CoralReef' (pid 7216)<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+				codeline="96"
+				loglvl="Warn"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.878"
+			timeRelativeToTestModuleStartTime="00:34.878"
+			timeWallClock="13:22:24"
+			time="00:34.878"
+			level="Error"
+			category="Module"
+			errimg="images_SatisSip_53c7af0f\SatisSip_53c7af0f_9e6a7f3d_trace.jpg"
+			errthumb="images_SatisSip_53c7af0f\SatisSip_53c7af0f_9e6a7f3d_trace_thumb.jpg">
+			<message>
+				Index was out of range. Must be non-negative and less than the size of the collection.<br/>Parameter name: index
+			</message>
+			<metainfo
+				stacktrace="   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at CoralReefTest.SatisSiparisi.writeToTableCell(RepoItemInfo tableItemInfo, String columnName, Int32 rowIndex, String value) in C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.UserCode.cs:line 83
+   at CoralReefTest.SatisSiparisi.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs:line 99
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.UserCode.cs"
+				codeline="83"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,1083 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="3.4m"
+		durationms="201557"
+		type="root"
+		rid="83051e5bf7f1800"
+		totalerrorcount="0"
+		totalwarningcount="5"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="TEST"
+		rxversion="9.3.2.0"
+		host="APP02"
+		osversion="Windows Server 2012 R2 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="25.3.2021 16:04:24"
+		timestampiso="2021-03-25T13:04:24"
+		endtime="25.3.2021 16:07:45"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="3.2m"
+			durationms="193455"
+			type="test-suite"
+			rid="391b8afd2ecf0010"
+			totalerrorcount="0"
+			totalwarningcount="5"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="CoralReefTest"
+			headertext="CoralReefTest"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Success"
+				duration="3.2m"
+				durationms="193432"
+				type="test-case"
+				rid="78733409b99500"
+				totalerrorcount="0"
+				totalwarningcount="5"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="4"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="4901b5d9-c629-4860-a1af-2ef3c5ea7fe5"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<params>
+					<param
+						name="kullaniciAdi">
+						admin
+					</param>
+					<param
+						name="islemAdi">
+						Satış Siparişi
+					</param>
+					<param
+						name="satisSiparisiFisNo">
+					</param>
+				</params>
+				<activity
+					result="Success"
+					duration="947ms"
+					durationms="947"
+					type="setup-container"
+					rid="6aaa83d49dc4091"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="922ms"
+						durationms="922"
+						type="test-module"
+						rid="2583152c3a24e9dc"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="StartAUT"
+						displayName="StartAUT"
+						moduleid="a0c0c274-adc5-42c5-9048-f7d3ce5c4810"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="StartAutProcessIDVar"
+								value="">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.060"
+							timeRelativeToTestModuleStartTime="00:00.010"
+							timeWallClock="16:04:32"
+							time="00:00.060"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$StartAutProcessIDVar = ''
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.205"
+							timeRelativeToTestModuleStartTime="00:00.155"
+							timeWallClock="16:04:32"
+							time="00:00.205"
+							level="Info"
+							category="Application">
+							<message>
+								Run application 'C:\Program Files (x86)\İletişim Yazılım\CoralReef\CoralReef.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\StartAUT.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="13.9s"
+					durationms="13902"
+					type="test-module"
+					rid="9c083ffb1980379"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="GirisYap"
+					displayName="GirisYap"
+					moduleid="1216d236-0941-4eb6-bc0b-82a327fd643a"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+						<varbinding
+							name="varKullaniciAdi"
+							value="admin">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.977"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="16:04:33"
+						time="00:00.977"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$varKullaniciAdi = 'admin'
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.067"
+						timeRelativeToTestModuleStartTime="00:00.091"
+						timeWallClock="16:04:33"
+						time="00:01.067"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'LoginScreen.txtUsername' at 66;15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='LoginScreen']/?/?/text[@controlname='_maskBox']"
+							itempath="?/?/text[@controlname='_maskBox']"
+							fullname="CoralReefTestRepository.LoginScreen.txtUsername"
+							id="81466fa23c5344dda997897325808469"
+							timeout="240000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\GirisYap.cs"
+							codeline="95"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.149"
+						timeRelativeToTestModuleStartTime="00:12.173"
+						timeWallClock="16:04:45"
+						time="00:13.149"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key 'Ctrl+A' Press with focus on 'LoginScreen.txtUsername'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='LoginScreen']/?/?/text[@controlname='_maskBox']"
+							itempath="?/?/text[@controlname='_maskBox']"
+							fullname="CoralReefTestRepository.LoginScreen.txtUsername"
+							id="81466fa23c5344dda997897325808469"
+							timeout="240000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\GirisYap.cs"
+							codeline="99"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.566"
+						timeRelativeToTestModuleStartTime="00:12.590"
+						timeWallClock="16:04:46"
+						time="00:13.566"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$varKullaniciAdi' with focus on 'LoginScreen.txtUsername'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='LoginScreen']/?/?/text[@controlname='_maskBox']"
+							itempath="?/?/text[@controlname='_maskBox']"
+							fullname="CoralReefTestRepository.LoginScreen.txtUsername"
+							id="81466fa23c5344dda997897325808469"
+							timeout="240000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\GirisYap.cs"
+							codeline="104"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.104"
+						timeRelativeToTestModuleStartTime="00:13.128"
+						timeWallClock="16:04:46"
+						time="00:14.104"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'LoginScreen.SİSTEMEBAĞLAN' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='LoginScreen']/?/?/button[@accessiblename='SİSTEME BAĞLAN']"
+							itempath="?/?/button[@accessiblename='SİSTEME BAĞLAN']"
+							fullname="CoralReefTestRepository.LoginScreen.SİSTEMEBAĞLAN"
+							id="3e7e98f29d774d35be45b56a0ff43237"
+							timeout="240000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\GirisYap.cs"
+							codeline="108"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="22.56s"
+					durationms="22556"
+					type="test-module"
+					rid="11ecfb59c4c25c0"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="IslemAra"
+					displayName="IslemAra"
+					moduleid="4ae15eb5-5b46-41d3-8464-ed0ffa17b771"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+						<varbinding
+							name="varIslemAdi"
+							value="Satış Siparişi">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.880"
+						timeRelativeToTestModuleStartTime="00:00.001"
+						timeWallClock="16:04:47"
+						time="00:14.880"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$varIslemAdi = 'Satış Siparişi'
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.947"
+						timeRelativeToTestModuleStartTime="00:00.068"
+						timeWallClock="16:04:47"
+						time="00:14.947"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key 'Ctrl+A' Press with focus on 'MainForm.DockPanelNavigation.txtIslemAra'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']//container[@controlname='FindControlCore']/container[@controlname='layoutControl1']/?/?/text[@controltypename='TextBoxMaskBox']"
+							itempath=".//container[@controlname='FindControlCore']/container[@controlname='layoutControl1']/?/?/text[@controltypename='TextBoxMaskBox']"
+							fullname="CoralReefTestRepository.MainForm.DockPanelNavigation.txtIslemAra"
+							id="f983b16397014cdb8f0252bd821db7de"
+							timeout="180000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\IslemAra.cs"
+							codeline="95"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.910"
+						timeRelativeToTestModuleStartTime="00:08.030"
+						timeWallClock="16:04:55"
+						time="00:22.910"
+						level="Warn"
+						category="WinForms">
+						<message>
+							Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: (pid 0)<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+						</message>
+						<metainfo
+							limitationName="PotentiallyWinForms"
+							showInProgressDialog="False"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\IslemAra.cs"
+							codeline="96"
+							loglvl="Warn"
+							itemindex="0">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:33.901"
+						timeRelativeToTestModuleStartTime="00:19.021"
+						timeWallClock="16:05:06"
+						time="00:33.901"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence from variable '$varIslemAdi' with focus on 'MainForm.DockPanelNavigation.txtIslemAra'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']//container[@controlname='FindControlCore']/container[@controlname='layoutControl1']/?/?/text[@controltypename='TextBoxMaskBox']"
+							itempath=".//container[@controlname='FindControlCore']/container[@controlname='layoutControl1']/?/?/text[@controltypename='TextBoxMaskBox']"
+							fullname="CoralReefTestRepository.MainForm.DockPanelNavigation.txtIslemAra"
+							id="f983b16397014cdb8f0252bd821db7de"
+							timeout="180000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\IslemAra.cs"
+							codeline="100"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:34.865"
+						timeRelativeToTestModuleStartTime="00:19.985"
+						timeWallClock="16:05:07"
+						time="00:34.865"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MainForm.DockPanelNavigation.ButtonBul' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']//container[@controlname='FindControlCore']/?/?/element[@controlname='btFind']/button[@accessiblename='Bul']"
+							itempath=".//container[@controlname='FindControlCore']/?/?/element[@controlname='btFind']/button[@accessiblename='Bul']"
+							fullname="CoralReefTestRepository.MainForm.DockPanelNavigation.ButtonBul"
+							id="a098d5ade57e4f8fb9b35d09a1c2ec5d"
+							timeout="180000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\IslemAra.cs"
+							codeline="104"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:35.838"
+						timeRelativeToTestModuleStartTime="00:20.958"
+						timeWallClock="16:05:08"
+						time="00:35.838"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MainForm.DockPanelNavigation.IlkIslem' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']/container[@controlname='dockPanelNavigation_Container']//tree[@accessiblerole='Outline']/?/?/treeitem[@accessiblename='Düğüm0']"
+							itempath="container[@controlname='dockPanelNavigation_Container']//tree[@accessiblerole='Outline']/?/?/treeitem[@accessiblename='Düğüm0']"
+							fullname="CoralReefTestRepository.MainForm.DockPanelNavigation.IlkIslem"
+							id="03addd18ea8346b3a88e12d30ef8ef67"
+							timeout="180000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\IslemAra.cs"
+							codeline="108"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:37.433"
+						timeRelativeToTestModuleStartTime="00:22.553"
+						timeWallClock="16:05:09"
+						time="00:37.433"
+						level="Success"
+						category="User"
+						errimg="images_CoralRee_ab16ae6e\CoralRee_67b9bd38_rxlog.jpg"
+						errthumb="images_CoralRee_ab16ae6e\CoralRee_67b9bd38_rxlog_thumb.jpg">
+						<message>
+							Ekran Goruntusu<br/>
+						</message>
+						<metainfo
+							itemindex="4"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\IslemAra.cs"
+							codeline="112"
+							loglvl="Success">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="2.6m"
+					durationms="156011"
+					type="test-module"
+					rid="113ba16e920370a8"
+					totalerrorcount="0"
+					totalwarningcount="4"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="SatisSiparisi"
+					displayName="SatisSiparisi"
+					moduleid="0891341f-c7c8-40d7-b385-71dbae6ec49b"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+						<varbinding
+							name="satisSiparisiFisNo"
+							value="">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:37.439"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="16:05:09"
+						time="00:37.439"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$satisSiparisiFisNo = ''
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:37.498"
+						timeRelativeToTestModuleStartTime="00:00.060"
+						timeWallClock="16:05:09"
+						time="00:37.498"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SatisSiparisi.Yeni' at UpperCenter.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controltext='Satış Siparişi - CoralReef Üretim Takip']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Objects Creation']/button[@accessiblename='Yeni']"
+							itempath="?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Objects Creation']/button[@accessiblename='Yeni']"
+							fullname="CoralReefTestRepository.SatisSiparisi.Yeni"
+							id="fafcd38ba28c4b5086d248af2a54de4e"
+							timeout="60000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="95"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:43.036"
+						timeRelativeToTestModuleStartTime="00:05.598"
+						timeWallClock="16:05:15"
+						time="00:43.036"
+						level="Info"
+						category="Get Value">
+						<message>
+							Getting attribute 'ControlText' from item 'SatisSiparisiDetaylari.FisNo' and assigning its value to variable 'satisSiparisiFisNo'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controltext='Satış Siparişi']/container[@controlname='viewSitePanel']/?/?/element[@controlname='Number(5)']"
+							itempath="container[@controlname='viewSitePanel']/?/?/element[@controlname='Number(5)']"
+							fullname="CoralReefTestRepository.SatisSiparisiDetaylari.FisNo"
+							id="8c9bbc669db646399b85c172a4613a37"
+							timeout="60000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="99"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:46.272"
+						timeRelativeToTestModuleStartTime="00:08.834"
+						timeWallClock="16:05:18"
+						time="00:46.272"
+						level="Info"
+						category="User">
+						<message>
+							SPR119
+						</message>
+						<metainfo
+							itemindex="2"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="103"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:46.327"
+						timeRelativeToTestModuleStartTime="00:08.889"
+						timeWallClock="16:05:18"
+						time="00:46.327"
+						level="Info"
+						category="Section">
+						<message>
+							Test
+						</message>
+						<metainfo
+							itemindex="3"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="106"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:46.393"
+						timeRelativeToTestModuleStartTime="00:08.955"
+						timeWallClock="16:05:18"
+						time="00:46.393"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SatisSiparisiDetaylari.CariHesap' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controltext='Satış Siparişi']/container[@controlname='viewSitePanel']/?/?/element[@controlname='ClientCard(7)']"
+							itempath="container[@controlname='viewSitePanel']/?/?/element[@controlname='ClientCard(7)']"
+							fullname="CoralReefTestRepository.SatisSiparisiDetaylari.CariHesap"
+							id="8a863eaeb899481e99d625433cb29f4a"
+							timeout="60000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="108"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:49.394"
+						timeRelativeToTestModuleStartTime="00:11.955"
+						timeWallClock="16:05:21"
+						time="00:49.394"
+						level="Info"
+						category="Section">
+						<message>
+							Yeni Kayıt
+						</message>
+						<metainfo
+							itemindex="6"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="116"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:49.464"
+						timeRelativeToTestModuleStartTime="00:12.025"
+						timeWallClock="16:05:21"
+						time="00:49.464"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SatisSiparisiDetaylari.Yeni' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controltext='Satış Siparişi']/container[@controlname='viewSitePanel']/?/?/container[@controlname='Lines(20)']//toolbar[@accessiblename='Araç çubuğu']/button[@accessiblename='Yeni']"
+							itempath="container[@controlname='viewSitePanel']/?/?/container[@controlname='Lines(20)']//toolbar[@accessiblename='Araç çubuğu']/button[@accessiblename='Yeni']"
+							fullname="CoralReefTestRepository.SatisSiparisiDetaylari.Yeni"
+							id="d5f60be86d644e9fa97dbc2649f2fd0a"
+							timeout="60000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="118"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:52.535"
+						timeRelativeToTestModuleStartTime="00:15.097"
+						timeWallClock="16:05:25"
+						time="00:52.535"
+						level="Info"
+						category="Section">
+						<message>
+							Stok Kartı Seçimi
+						</message>
+						<metainfo
+							itemindex="9"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="126"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:54.149"
+						timeRelativeToTestModuleStartTime="00:16.711"
+						timeWallClock="16:05:26"
+						time="00:54.149"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'MAMUL01' with focus on 'CoralReef.StokKartiSearchBox'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']//container[@controlname='controlsPanel']/?/?/container[@controlname='typeAndFindPanel']/container[@controlname='searchActionContainer']/element[@tooltip='Girilen metni kayıtlarda ara']"
+							itempath=".//container[@controlname='controlsPanel']/?/?/container[@controlname='typeAndFindPanel']/container[@controlname='searchActionContainer']/element[@tooltip='Girilen metni kayıtlarda ara']"
+							fullname="CoralReefTestRepository.CoralReef.StokKartiSearchBox"
+							id="4134674a466c49d0a6521a97608d7e4f"
+							timeout="60000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="131"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:56.175"
+						timeRelativeToTestModuleStartTime="00:18.737"
+						timeWallClock="16:05:28"
+						time="00:56.175"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'CoralReef.StokKartiSearchButton' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']//container[@controlname='controlsPanel']/?/?/container[@controlname='typeAndFindPanel']/container[@controlname='searchActionContainer']/element[@tooltip='Girilen metni kayıtlarda ara']/text/button[2]"
+							itempath=".//container[@controlname='controlsPanel']/?/?/container[@controlname='typeAndFindPanel']/container[@controlname='searchActionContainer']/element[@tooltip='Girilen metni kayıtlarda ara']/text/button[2]"
+							fullname="CoralReefTestRepository.CoralReef.StokKartiSearchButton"
+							id="ec2b4ec1127348578f704e5928ab8248"
+							timeout="60000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="135"
+							itemindex="12"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:59.010"
+						timeRelativeToTestModuleStartTime="00:21.572"
+						timeWallClock="16:05:31"
+						time="00:59.010"
+						level="Info"
+						category="Section">
+						<message>
+							Kaydet İşlemleri
+						</message>
+						<metainfo
+							itemindex="14"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="143"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:59.089"
+						timeRelativeToTestModuleStartTime="00:21.651"
+						timeWallClock="16:05:31"
+						time="00:59.089"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'CoralReef1.Kaydet' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='CoralReef']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Kaydet']/button[@accessiblekeyboardshortcut='Ctrl+S']"
+							itempath="?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Kaydet']/button[@accessiblekeyboardshortcut='Ctrl+S']"
+							fullname="CoralReefTestRepository.CoralReef1.Kaydet"
+							id="e0e21760495b4d0d8f62aab8e1b26ae9"
+							timeout="60000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="145"
+							itemindex="15"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:03.922"
+						timeRelativeToTestModuleStartTime="00:26.484"
+						timeWallClock="16:05:36"
+						time="01:03.922"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SatisSiparisiDetaylari.UretimEmriOlustur' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controltext='Satış Siparişi']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Görünüm']/button[@text='Üretim Emri Oluştur' and @accessiblerole='PushButton' and @accessibledescription>'Girilen ve Varsayılan Reçetesi']"
+							itempath="?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Görünüm']/button[@text='Üretim Emri Oluştur' and @accessiblerole='PushButton' and @accessibledescription>'Girilen ve Varsayılan Reçetesi']"
+							fullname="CoralReefTestRepository.SatisSiparisiDetaylari.UretimEmriOlustur"
+							id="484c0de279bb4971a824602387e406dd"
+							timeout="60000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="152"
+							itemindex="17"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:05.365"
+						timeRelativeToTestModuleStartTime="00:27.926"
+						timeWallClock="16:05:37"
+						time="01:05.365"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PopupForm.Tamam' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PopupForm']/?/?/container[@controlname='buttonsContainer']/?/?/button[@accessiblename='Tamam']"
+							itempath="?/?/container[@controlname='buttonsContainer']/?/?/button[@accessiblename='Tamam']"
+							fullname="CoralReefTestRepository.PopupForm.Tamam"
+							id="517f4b790db1415687d8f13481476b1a"
+							timeout="60000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="156"
+							itemindex="18"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:07.303"
+						timeRelativeToTestModuleStartTime="00:29.865"
+						timeWallClock="16:05:39"
+						time="01:07.303"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeContains (Text&gt;'&#220;retim emrinde kullan&#305;lacak yar&#305; mam&#252;ller i&#231;inde &#252;retim emri olu&#351;turulsun mu ?') on item 'CoralReef1.MessageLabel'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='CoralReef']/text[@visible='True' and @accessiblerole='StaticText']"
+							itempath="text[@visible='True' and @accessiblerole='StaticText']"
+							fullname="CoralReefTestRepository.CoralReef1.MessageLabel"
+							id="2652e35bb0b041f980d69965992c6f3c"
+							timeout="60000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="160"
+							itemindex="19"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:37.502"
+						timeRelativeToTestModuleStartTime="01:00.064"
+						timeWallClock="16:06:09"
+						time="01:37.502"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'CoralReefTestRepository.CoralReef1.MessageLabel' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'CoralReefTestRepository.CoralReef1'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="161"
+							loglvl="Warn"
+							id="2652e35bb0b041f980d69965992c6f3c"
+							path="/form[@processname='CoralReef']/text[@visible='True' and @accessiblerole='StaticText']"
+							fullname="CoralReefTestRepository.CoralReef1.MessageLabel"
+							itemindex="19">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:37.598"
+						timeRelativeToTestModuleStartTime="01:00.160"
+						timeWallClock="16:06:10"
+						time="01:37.598"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'CoralReefTestRepository.CoralReef1.MessageLabel' does contain the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='CoralReef']/text[@visible='True' and @accessiblerole='StaticText']"
+							itempath="text[@visible='True' and @accessiblerole='StaticText']"
+							fullname="CoralReefTestRepository.CoralReef1.MessageLabel"
+							id="2652e35bb0b041f980d69965992c6f3c"
+							timeout="60000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="161"
+							loglvl="Success"
+							itemindex="19">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:37.672"
+						timeRelativeToTestModuleStartTime="01:00.234"
+						timeWallClock="16:06:10"
+						time="01:37.672"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'CoralReef1.Evet' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='CoralReef']/?/?/button[@accessiblename='E&amp;vet']"
+							itempath="?/?/button[@accessiblename='E&amp;vet']"
+							fullname="CoralReefTestRepository.CoralReef1.Evet"
+							id="1db31c2adb174396baf00e916920c91a"
+							timeout="60000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="164"
+							itemindex="20"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:09.124"
+						timeRelativeToTestModuleStartTime="01:31.685"
+						timeWallClock="16:06:41"
+						time="02:09.124"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'CoralReefTestRepository.CoralReef1.Evet' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'CoralReefTestRepository.CoralReef1'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="165"
+							loglvl="Warn"
+							id="1db31c2adb174396baf00e916920c91a"
+							path="/form[@processname='CoralReef']/?/?/button[@accessiblename='E&amp;vet']"
+							fullname="CoralReefTestRepository.CoralReef1.Evet"
+							itemindex="20">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:09.573"
+						timeRelativeToTestModuleStartTime="01:32.134"
+						timeWallClock="16:06:42"
+						time="02:09.573"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeContains (Text&gt;'&#220;retim emri veya &#252;retim emirleri') on item 'CoralReef1.MessageLabel'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='CoralReef']/text[@visible='True' and @accessiblerole='StaticText']"
+							itempath="text[@visible='True' and @accessiblerole='StaticText']"
+							fullname="CoralReefTestRepository.CoralReef1.MessageLabel"
+							id="2652e35bb0b041f980d69965992c6f3c"
+							timeout="60000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="168"
+							itemindex="21"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:39.869"
+						timeRelativeToTestModuleStartTime="02:02.430"
+						timeWallClock="16:07:12"
+						time="02:39.869"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'CoralReefTestRepository.CoralReef1.MessageLabel' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'CoralReefTestRepository.CoralReef1'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="169"
+							loglvl="Warn"
+							id="2652e35bb0b041f980d69965992c6f3c"
+							path="/form[@processname='CoralReef']/text[@visible='True' and @accessiblerole='StaticText']"
+							fullname="CoralReefTestRepository.CoralReef1.MessageLabel"
+							itemindex="21">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:39.974"
+						timeRelativeToTestModuleStartTime="02:02.536"
+						timeWallClock="16:07:12"
+						time="02:39.974"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'CoralReefTestRepository.CoralReef1.MessageLabel' does contain the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='CoralReef']/text[@visible='True' and @accessiblerole='StaticText']"
+							itempath="text[@visible='True' and @accessiblerole='StaticText']"
+							fullname="CoralReefTestRepository.CoralReef1.MessageLabel"
+							id="2652e35bb0b041f980d69965992c6f3c"
+							timeout="60000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="169"
+							loglvl="Success"
+							itemindex="21">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:40.038"
+						timeRelativeToTestModuleStartTime="02:02.600"
+						timeWallClock="16:07:12"
+						time="02:40.038"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'CoralReef1.ButtonHayır' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='CoralReef']/?/?/button[@accessiblename='&amp;Hayır']"
+							itempath="?/?/button[@accessiblename='&amp;Hayır']"
+							fullname="CoralReefTestRepository.CoralReef1.ButtonHayır"
+							id="d7dad76e36e34896bab10406627b0ee7"
+							timeout="60000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="172"
+							itemindex="22"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:11.428"
+						timeRelativeToTestModuleStartTime="02:33.990"
+						timeWallClock="16:07:43"
+						time="03:11.428"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'CoralReefTestRepository.CoralReef1.ButtonHayır' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'CoralReefTestRepository.CoralReef1'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="173"
+							loglvl="Warn"
+							id="d7dad76e36e34896bab10406627b0ee7"
+							path="/form[@processname='CoralReef']/?/?/button[@accessiblename='&amp;Hayır']"
+							fullname="CoralReefTestRepository.CoralReef1.ButtonHayır"
+							itemindex="22">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:11.888"
+						timeRelativeToTestModuleStartTime="02:34.449"
+						timeWallClock="16:07:44"
+						time="03:11.888"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SatisSiparisiDetaylari.Kapat' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controltext='Satış Siparişi']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Kapat']/button[@accessiblename='Kapat']"
+							itempath="?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Kapat']/button[@accessiblename='Kapat']"
+							fullname="CoralReefTestRepository.SatisSiparisiDetaylari.Kapat"
+							id="9e5f8f94db824683917e37a2de9dd828"
+							timeout="60000"
+							codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+							codeline="176"
+							itemindex="23"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

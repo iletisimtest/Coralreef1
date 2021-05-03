@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="18.65s"
+		durationms="18649"
+		type="root"
+		rid="36732fddbf27b12"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="TEST"
+		rxversion="9.3.2.0"
+		host="APP02"
+		osversion="Windows Server 2012 R2 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="25.3.2021 14:45:36"
+		timestampiso="2021-03-25T11:45:36"
+		endtime="25.3.2021 14:45:55"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SatisSiparisi">
+		<detail>
+			SatisSiparisi
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.398"
+			timeRelativeToTestModuleStartTime="00:11.398"
+			timeWallClock="14:45:48"
+			time="00:11.398"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>satisSiparisiFisNo
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.402"
+			timeRelativeToTestModuleStartTime="00:13.402"
+			timeWallClock="14:45:50"
+			time="00:13.402"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'CoralReef' (pid 3364)<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.UserCode.cs"
+				codeline="102"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.327"
+			timeRelativeToTestModuleStartTime="00:15.327"
+			timeWallClock="14:45:52"
+			time="00:15.327"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'MAMUL01' with focus on 'CoralReef.StokKartiSearchBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='']//container[@controlname='controlsPanel']/?/?/container[@controlname='typeAndFindPanel']/container[@controlname='searchActionContainer']/element[@tooltip='Girilen metni kayıtlarda ara']"
+				itempath=".//container[@controlname='controlsPanel']/?/?/container[@controlname='typeAndFindPanel']/container[@controlname='searchActionContainer']/element[@tooltip='Girilen metni kayıtlarda ara']"
+				fullname="CoralReefTestRepository.CoralReef.StokKartiSearchBox"
+				id="4134674a466c49d0a6521a97608d7e4f"
+				timeout="60000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+				codeline="98"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.309"
+			timeRelativeToTestModuleStartTime="00:17.309"
+			timeWallClock="14:45:54"
+			time="00:17.309"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CoralReef.StokKartiSearchButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='']//container[@controlname='controlsPanel']/?/?/container[@controlname='typeAndFindPanel']/container[@controlname='searchActionContainer']/element[@tooltip='Girilen metni kayıtlarda ara']/text/button"
+				itempath=".//container[@controlname='controlsPanel']/?/?/container[@controlname='typeAndFindPanel']/container[@controlname='searchActionContainer']/element[@tooltip='Girilen metni kayıtlarda ara']/text/button"
+				fullname="CoralReefTestRepository.CoralReef.StokKartiSearchButton"
+				id="ec2b4ec1127348578f704e5928ab8248"
+				timeout="60000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+				codeline="102"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

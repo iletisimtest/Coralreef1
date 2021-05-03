@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="11.81s"
+		durationms="11809"
+		type="root"
+		rid="238876da5d5cea1a"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="TEST"
+		rxversion="9.3.2.0"
+		host="APP02"
+		osversion="Windows Server 2012 R2 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="25.3.2021 16:56:27"
+		timestampiso="2021-03-25T13:56:27"
+		endtime="25.3.2021 16:56:39"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AlimSiparisi">
+		<detail>
+			AlimSiparisi
+		</detail>
+		<errormessage>
+			Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.534"
+			timeRelativeToTestModuleStartTime="00:08.534"
+			timeWallClock="16:56:35"
+			time="00:08.534"
+			level="Warn"
+			category="Data"
+			errimg="images_AlimSipa_c0df08dd\AlimSipa_c0df08dd_02aad1ec_trace.jpg"
+			errthumb="images_AlimSipa_c0df08dd\AlimSipa_c0df08dd_02aad1ec_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>varAlimSiparisiFisNo
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.342"
+			timeRelativeToTestModuleStartTime="00:10.342"
+			timeWallClock="16:56:37"
+			time="00:10.342"
+			level="Warn"
+			category="WinForms"
+			errimg="images_AlimSipa_c0df08dd\AlimSipa_c0df08dd_0702a41f_trace.jpg"
+			errthumb="images_AlimSipa_c0df08dd\AlimSipa_c0df08dd_0702a41f_trace_thumb.jpg">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'CoralReef' (pid 6480)<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\AlimSiparisi.UserCode.cs"
+				codeline="102"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.665"
+			timeRelativeToTestModuleStartTime="00:11.665"
+			timeWallClock="16:56:39"
+			time="00:11.665"
+			level="Error"
+			category="Module"
+			errimg="images_AlimSipa_c0df08dd\AlimSipa_c0df08dd_a1eb3aa6_trace.jpg"
+			errthumb="images_AlimSipa_c0df08dd\AlimSipa_c0df08dd_a1eb3aa6_trace_thumb.jpg">
+			<message>
+				Index was out of range. Must be non-negative and less than the size of the collection.<br/>Parameter name: index
+			</message>
+			<metainfo
+				stacktrace="   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at CoralReefTest.AlimSiparisi.clickToTableCell(RepoItemInfo tableItemInfo, String columnName, Int32 rowIndex) in C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\AlimSiparisi.UserCode.cs:line 106
+   at CoralReefTest.AlimSiparisi.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\AlimSiparisi.cs:line 95
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\AlimSiparisi.UserCode.cs"
+				codeline="106"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

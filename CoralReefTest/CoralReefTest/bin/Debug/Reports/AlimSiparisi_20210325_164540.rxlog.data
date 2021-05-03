@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="11.81s"
+		durationms="11814"
+		type="root"
+		rid="7a33b06c3041e7c"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="TEST"
+		rxversion="9.3.2.0"
+		host="APP02"
+		osversion="Windows Server 2012 R2 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="25.3.2021 16:45:43"
+		timestampiso="2021-03-25T13:45:43"
+		endtime="25.3.2021 16:45:55"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AlimSiparisi">
+		<detail>
+			AlimSiparisi
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.115"
+			timeRelativeToTestModuleStartTime="00:08.115"
+			timeWallClock="16:45:51"
+			time="00:08.115"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CoralReef1.Yeni' at UpperCenter.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='CoralReef']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Objects Creation']/button[@accessiblename='Yeni']"
+				itempath="?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Objects Creation']/button[@accessiblename='Yeni']"
+				fullname="CoralReefTestRepository.CoralReef1.Yeni"
+				id="d46b37e01c3748e0a62eb6d36f39a2fe"
+				timeout="60000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\AlimSiparisi.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.259"
+			timeRelativeToTestModuleStartTime="00:10.259"
+			timeWallClock="16:45:53"
+			time="00:10.259"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'CoralReef' (pid 6480)<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\AlimSiparisi.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

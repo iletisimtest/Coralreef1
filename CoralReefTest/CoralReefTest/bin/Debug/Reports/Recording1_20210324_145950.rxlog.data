@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="13.64s"
+		durationms="13641"
+		type="root"
+		rid="3c82b5a4f358bd8"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="TEST"
+		rxversion="9.3.2.0"
+		host="APP02"
+		osversion="Windows Server 2012 R2 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="24.3.2021 14:59:53"
+		timestampiso="2021-03-24T11:59:53"
+		endtime="24.3.2021 15:00:07"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.150"
+			timeRelativeToTestModuleStartTime="00:07.150"
+			timeWallClock="15:00:00"
+			time="00:07.150"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Satış Siparişi' with focus on 'MainForm.DockPanelNavigation.TextBoxMaskBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']//container[@controlname='FindControlCore']/container[@controlname='layoutControl1']/?/?/text[@controltypename='TextBoxMaskBox']"
+				itempath=".//container[@controlname='FindControlCore']/container[@controlname='layoutControl1']/?/?/text[@controltypename='TextBoxMaskBox']"
+				fullname="CoralReefTestRepository.MainForm.DockPanelNavigation.TextBoxMaskBox"
+				id="f983b16397014cdb8f0252bd821db7de"
+				timeout="180000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.423"
+			timeRelativeToTestModuleStartTime="00:09.423"
+			timeWallClock="15:00:02"
+			time="00:09.423"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'CoralReef' (pid 4768)<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\Recording1.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.501"
+			timeRelativeToTestModuleStartTime="00:11.501"
+			timeWallClock="15:00:04"
+			time="00:11.501"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.DockPanelNavigation.ButtonBul' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']//container[@controlname='FindControlCore']/?/?/element[@controlname='btFind']/button[@accessiblename='Bul']"
+				itempath=".//container[@controlname='FindControlCore']/?/?/element[@controlname='btFind']/button[@accessiblename='Bul']"
+				fullname="CoralReefTestRepository.MainForm.DockPanelNavigation.ButtonBul"
+				id="a098d5ade57e4f8fb9b35d09a1c2ec5d"
+				timeout="180000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.374"
+			timeRelativeToTestModuleStartTime="00:12.374"
+			timeWallClock="15:00:05"
+			time="00:12.374"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.DockPanelNavigation.IlkIslem' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']/container[@controlname='dockPanelNavigation_Container']//tree[@accessiblerole='Outline']/?/?/treeitem[@accessiblename='Düğüm0']"
+				itempath="container[@controlname='dockPanelNavigation_Container']//tree[@accessiblerole='Outline']/?/?/treeitem[@accessiblename='Düğüm0']"
+				fullname="CoralReefTestRepository.MainForm.DockPanelNavigation.IlkIslem"
+				id="03addd18ea8346b3a88e12d30ef8ef67"
+				timeout="180000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

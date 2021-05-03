@@ -1,0 +1,10 @@
+C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\bin\Debug\CoralReefTest.rxtmg
+C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\bin\Debug\CoralReefTest.rxtst
+C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\bin\Debug\CoralReefTest.exe.config
+C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\bin\Debug\CoralReefTest.xml
+C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\bin\Debug\CoralReefTest.exe
+C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\bin\Debug\CoralReefTest.pdb
+C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\obj\x86\Debug\CoralReefTest.csprojResolveAssemblyReference.cache
+C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\obj\x86\Debug\CoralReefTest.exe
+C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\obj\x86\Debug\CoralReefTest.pdb

@@ -1,0 +1,15 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{BACD2AB5-CEB4-4D32-AEA5-F36DD7C76655}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution CoralReefTest[CoralReefTest[]]]&#xD;&#xA;Solution CoralReefTest\CoralReefTest&#xD;&#xA;Solution CoralReefTest" />
+  <StartupProject value="{BACD2AB5-CEB4-4D32-AEA5-F36DD7C76655}" />
+</Properties>

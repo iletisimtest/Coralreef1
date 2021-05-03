@@ -1,0 +1,906 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoralReefTest</name>
+    </assembly>
+    <members>
+        <member name="T:CoralReefTest.AlimSiparisi">
+             <summary>
+            The AlimSiparisi recording.
+             </summary>
+        </member>
+        <member name="F:CoralReefTest.AlimSiparisi.repo">
+            <summary>
+            Holds an instance of the CoralReefTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.AlimSiparisi.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.AlimSiparisi.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.AlimSiparisi.varAlimSiparisiFisNo">
+            <summary>
+            Gets or sets the value of variable varAlimSiparisiFisNo.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.AlimSiparisi.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CoralReefTest.AlimSiparisi.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.AlimSiparisi.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CoralReefTest.AlimSiparisi.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CoralReefTest.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:CoralReefTest.CloseAUT.repo">
+            <summary>
+            Holds an instance of the CoralReefTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CoralReefTest.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CoralReefTest.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CoralReefTest.CoralReefTestRepository">
+            <summary>
+            The class representing the CoralReefTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the CoralReefTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.CoralReefTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepository.LoginScreen">
+            <summary>
+            The LoginScreen folder.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepository.MainForm">
+            <summary>
+            The MainForm folder.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepository.LoginScreen1">
+            <summary>
+            The LoginScreen1 folder.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepository.SatisSiparisi">
+            <summary>
+            The SatisSiparisi folder.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepository.SatisSiparisiDetaylari">
+            <summary>
+            The SatisSiparisiDetaylari folder.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepository.CoralReef">
+            <summary>
+            The CoralReef folder.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepository.CoralReef1">
+            <summary>
+            The CoralReef1 folder.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepository.PopupForm">
+            <summary>
+            The PopupForm folder.
+            </summary>
+        </member>
+        <member name="T:CoralReefTest.CoralReefTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:CoralReefTest.CoralReefTestRepositoryFolders.LoginScreenAppFolder">
+            <summary>
+            The LoginScreenAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.CoralReefTestRepositoryFolders.LoginScreenAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginScreen  folder.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.LoginScreenAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.LoginScreenAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.LoginScreenAppFolder.txtUsername">
+            <summary>
+            The txtUsername item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.LoginScreenAppFolder.txtUsernameInfo">
+            <summary>
+            The txtUsername item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.LoginScreenAppFolder.TextMaskBox1">
+            <summary>
+            The TextMaskBox1 item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.LoginScreenAppFolder.TextMaskBox1Info">
+            <summary>
+            The TextMaskBox1 item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.LoginScreenAppFolder.SİSTEMEBAĞLAN">
+            <summary>
+            The SİSTEMEBAĞLAN item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.LoginScreenAppFolder.SİSTEMEBAĞLANInfo">
+            <summary>
+            The SİSTEMEBAĞLAN item info.
+            </summary>
+        </member>
+        <member name="T:CoralReefTest.CoralReefTestRepositoryFolders.MainFormAppFolder">
+            <summary>
+            The MainFormAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.CoralReefTestRepositoryFolders.MainFormAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MainForm  folder.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.MainFormAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.MainFormAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.MainFormAppFolder.FilterTable">
+            <summary>
+            The FilterTable item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.MainFormAppFolder.FilterTableInfo">
+            <summary>
+            The FilterTable item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.MainFormAppFolder.Onayla">
+            <summary>
+            The Onayla item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.MainFormAppFolder.OnaylaInfo">
+            <summary>
+            The Onayla item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.MainFormAppFolder.DockPanelNavigation">
+            <summary>
+            The DockPanelNavigation folder.
+            </summary>
+        </member>
+        <member name="T:CoralReefTest.CoralReefTestRepositoryFolders.DockPanelNavigationFolder">
+            <summary>
+            The DockPanelNavigationFolder folder.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.CoralReefTestRepositoryFolders.DockPanelNavigationFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DockPanelNavigation  folder.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.DockPanelNavigationFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.DockPanelNavigationFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.DockPanelNavigationFolder.ButtonBul">
+            <summary>
+            The ButtonBul item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.DockPanelNavigationFolder.ButtonBulInfo">
+            <summary>
+            The ButtonBul item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.DockPanelNavigationFolder.txtIslemAra">
+            <summary>
+            The txtIslemAra item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.DockPanelNavigationFolder.txtIslemAraInfo">
+            <summary>
+            The txtIslemAra item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.DockPanelNavigationFolder.CaptionRow0">
+            <summary>
+            The CaptionRow0 item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.DockPanelNavigationFolder.CaptionRow0Info">
+            <summary>
+            The CaptionRow0 item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.DockPanelNavigationFolder.IlkIslem">
+            <summary>
+            The IlkIslem item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.DockPanelNavigationFolder.IlkIslemInfo">
+            <summary>
+            The IlkIslem item info.
+            </summary>
+        </member>
+        <member name="T:CoralReefTest.CoralReefTestRepositoryFolders.LoginScreen1AppFolder">
+            <summary>
+            The LoginScreen1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.CoralReefTestRepositoryFolders.LoginScreen1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginScreen1  folder.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.LoginScreen1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.LoginScreen1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.LoginScreen1AppFolder.TextMaskBox">
+            <summary>
+            The TextMaskBox item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.LoginScreen1AppFolder.TextMaskBoxInfo">
+            <summary>
+            The TextMaskBox item info.
+            </summary>
+        </member>
+        <member name="T:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiAppFolder">
+            <summary>
+            The SatisSiparisiAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SatisSiparisi  folder.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiAppFolder.Yeni">
+            <summary>
+            The Yeni item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiAppFolder.YeniInfo">
+            <summary>
+            The Yeni item info.
+            </summary>
+        </member>
+        <member name="T:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder">
+            <summary>
+            The SatisSiparisiDetaylariAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SatisSiparisiDetaylari  folder.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.FisNo">
+            <summary>
+            The FisNo item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.FisNoInfo">
+            <summary>
+            The FisNo item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.CariHesap">
+            <summary>
+            The CariHesap item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.CariHesapInfo">
+            <summary>
+            The CariHesap item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.Yeni">
+            <summary>
+            The Yeni item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.YeniInfo">
+            <summary>
+            The Yeni item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.Table">
+            <summary>
+            The Table item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.TableInfo">
+            <summary>
+            The Table item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.FisTarihi">
+            <summary>
+            The FisTarihi item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.FisTarihiInfo">
+            <summary>
+            The FisTarihi item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.SiparisDurumu">
+            <summary>
+            The SiparisDurumu item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.SiparisDurumuInfo">
+            <summary>
+            The SiparisDurumu item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.UretimEmriOlustur">
+            <summary>
+            The UretimEmriOlustur item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.UretimEmriOlusturInfo">
+            <summary>
+            The UretimEmriOlustur item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.Kapat">
+            <summary>
+            The Kapat item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.SatisSiparisiDetaylariAppFolder.KapatInfo">
+            <summary>
+            The Kapat item info.
+            </summary>
+        </member>
+        <member name="T:CoralReefTest.CoralReefTestRepositoryFolders.CoralReefAppFolder">
+            <summary>
+            The CoralReefAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.CoralReefTestRepositoryFolders.CoralReefAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CoralReef  folder.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReefAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReefAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReefAppFolder.Table">
+            <summary>
+            The Table item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReefAppFolder.TableInfo">
+            <summary>
+            The Table item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReefAppFolder.StokKartiSearchBox">
+            <summary>
+            The StokKartiSearchBox item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReefAppFolder.StokKartiSearchBoxInfo">
+            <summary>
+            The StokKartiSearchBox item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReefAppFolder.StokKartiSearchButton">
+            <summary>
+            The StokKartiSearchButton item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReefAppFolder.StokKartiSearchButtonInfo">
+            <summary>
+            The StokKartiSearchButton item info.
+            </summary>
+        </member>
+        <member name="T:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder">
+            <summary>
+            The CoralReef1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CoralReef1  folder.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.Kaydet">
+            <summary>
+            The Kaydet item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.KaydetInfo">
+            <summary>
+            The Kaydet item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.MessageLabel">
+            <summary>
+            The MessageLabel item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.MessageLabelInfo">
+            <summary>
+            The MessageLabel item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.Evet">
+            <summary>
+            The Evet item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.EvetInfo">
+            <summary>
+            The Evet item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.ButtonHayır">
+            <summary>
+            The ButtonHayır item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.ButtonHayırInfo">
+            <summary>
+            The ButtonHayır item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.Yeni">
+            <summary>
+            The Yeni item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.YeniInfo">
+            <summary>
+            The Yeni item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.AlimSiparisiFisNo">
+            <summary>
+            The AlimSiparisiFisNo item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.AlimSiparisiFisNoInfo">
+            <summary>
+            The AlimSiparisiFisNo item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.BelgeNo">
+            <summary>
+            The BelgeNo item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.BelgeNoInfo">
+            <summary>
+            The BelgeNo item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.CariHesap">
+            <summary>
+            The CariHesap item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.CariHesapInfo">
+            <summary>
+            The CariHesap item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.KullanilacakParaBirimiSatirlar">
+            <summary>
+            The KullanilacakParaBirimiSatirlar item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.KullanilacakParaBirimiSatirlarInfo">
+            <summary>
+            The KullanilacakParaBirimiSatirlar item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.IslemDovizTuru">
+            <summary>
+            The IslemDovizTuru item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.IslemDovizTuruInfo">
+            <summary>
+            The IslemDovizTuru item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.Yeni1">
+            <summary>
+            The Yeni1 item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.Yeni1Info">
+            <summary>
+            The Yeni1 item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.Table">
+            <summary>
+            The Table item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.TableInfo">
+            <summary>
+            The Table item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.KaydetVeKapat">
+            <summary>
+            The KaydetVeKapat item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.KaydetVeKapatInfo">
+            <summary>
+            The KaydetVeKapat item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.OnayıİptalEt">
+            <summary>
+            The OnayıİptalEt item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.CoralReef1AppFolder.OnayıİptalEtInfo">
+            <summary>
+            The OnayıİptalEt item info.
+            </summary>
+        </member>
+        <member name="T:CoralReefTest.CoralReefTestRepositoryFolders.PopupFormAppFolder">
+            <summary>
+            The PopupFormAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.CoralReefTestRepositoryFolders.PopupFormAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PopupForm  folder.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.PopupFormAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.PopupFormAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.PopupFormAppFolder.Tamam">
+            <summary>
+            The Tamam item.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.CoralReefTestRepositoryFolders.PopupFormAppFolder.TamamInfo">
+            <summary>
+            The Tamam item info.
+            </summary>
+        </member>
+        <member name="T:CoralReefTest.GirisYap">
+             <summary>
+            The GirisYap recording.
+             </summary>
+        </member>
+        <member name="F:CoralReefTest.GirisYap.repo">
+            <summary>
+            Holds an instance of the CoralReefTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.GirisYap.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.GirisYap.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.GirisYap.varKullaniciAdi">
+            <summary>
+            Gets or sets the value of variable varKullaniciAdi.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.GirisYap.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CoralReefTest.GirisYap.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.GirisYap.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CoralReefTest.GirisYap.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CoralReefTest.IslemAra">
+             <summary>
+            The IslemAra recording.
+             </summary>
+        </member>
+        <member name="F:CoralReefTest.IslemAra.repo">
+            <summary>
+            Holds an instance of the CoralReefTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.IslemAra.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.IslemAra.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.IslemAra.varIslemAdi">
+            <summary>
+            Gets or sets the value of variable varIslemAdi.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.IslemAra.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CoralReefTest.IslemAra.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.IslemAra.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CoralReefTest.IslemAra.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CoralReefTest.SatisSiparisi">
+             <summary>
+            The SatisSiparisi recording.
+             </summary>
+        </member>
+        <member name="F:CoralReefTest.SatisSiparisi.repo">
+            <summary>
+            Holds an instance of the CoralReefTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.SatisSiparisi.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.SatisSiparisi.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.SatisSiparisi.satisSiparisiFisNo">
+            <summary>
+            Gets or sets the value of variable satisSiparisiFisNo.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.SatisSiparisi.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CoralReefTest.SatisSiparisi.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.SatisSiparisi.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CoralReefTest.SatisSiparisi.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:CoralReefTest.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:CoralReefTest.StartAUT.repo">
+            <summary>
+            Holds an instance of the CoralReefTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:CoralReefTest.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CoralReefTest.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CoralReefTest.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CoralReefTest.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

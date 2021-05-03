@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{BACD2AB5-CEB4-4D32-AEA5-F36DD7C76655}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CoralReefTest</RootNamespace>
+    <AssemblyName>CoralReefTest</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>612ddaa9-3fc7-4dc3-863c-e77a47c4cdb9</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlimSiparisi.cs">
+      <BoundTo>d0663eed-c013-44a3-83dd-94582950bf67</BoundTo>
+      <DependentUpon>AlimSiparisi.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dd76693a-d3a7-41bf-8233-bad851d1e0d9</id>
+    </Compile>
+    <Compile Include="AlimSiparisi.UserCode.cs">
+      <BoundTo>d0663eed-c013-44a3-83dd-94582950bf67</BoundTo>
+      <DependentUpon>AlimSiparisi.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7e5f45dd-fe2d-42ee-89d1-f6e3ef19a5dc</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>8ccdddfe-35d5-4e6e-b694-9b6f31d5656c</id>
+    </Compile>
+    <Compile Include="CloseAUT.cs">
+      <BoundTo>540df50d-59ca-4d67-ab3f-a0a0b5cf7828</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c6a4b265-7409-4fef-b4ff-c911d9189615</id>
+    </Compile>
+    <Compile Include="CloseAUT.UserCode.cs">
+      <BoundTo>540df50d-59ca-4d67-ab3f-a0a0b5cf7828</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c37b705a-3a21-4405-9bfa-fce8f8d43bc9</id>
+    </Compile>
+    <Compile Include="CoralReefTestRepository.cs">
+      <BoundTo>612ddaa9-3fc7-4dc3-863c-e77a47c4cdb9</BoundTo>
+      <DependentUpon>CoralReefTestRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>1d737893-ca28-488d-a73e-ed7d2058b3b1</id>
+    </Compile>
+    <Compile Include="GirisYap.cs">
+      <BoundTo>92580fde-aa79-4d5d-b954-cee5d37b0ca1</BoundTo>
+      <DependentUpon>GirisYap.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7420fec0-9e6d-4ed7-b5e1-b3613d0042ca</id>
+    </Compile>
+    <Compile Include="GirisYap.UserCode.cs">
+      <BoundTo>92580fde-aa79-4d5d-b954-cee5d37b0ca1</BoundTo>
+      <DependentUpon>GirisYap.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>51e52a28-e301-4c04-88c3-60645799adba</id>
+    </Compile>
+    <Compile Include="IslemAra.cs">
+      <BoundTo>fb5f7ceb-5187-4344-9ee5-79c9ef6b1582</BoundTo>
+      <DependentUpon>IslemAra.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c3b3d921-863e-4479-8bf7-d531ac7e8030</id>
+    </Compile>
+    <Compile Include="IslemAra.UserCode.cs">
+      <BoundTo>fb5f7ceb-5187-4344-9ee5-79c9ef6b1582</BoundTo>
+      <DependentUpon>IslemAra.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7bf7ced0-1c82-49d3-b8cb-c9f5c52c70ef</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>879157c9-54f3-42c7-a093-897c4d27c6f4</id>
+    </Compile>
+    <Compile Include="SatisSiparisi.cs">
+      <BoundTo>f3814aa8-d43e-4293-b968-2e465bcb3d59</BoundTo>
+      <DependentUpon>SatisSiparisi.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>78281204-20c9-45c4-bf7a-2a82d3b2957f</id>
+    </Compile>
+    <Compile Include="SatisSiparisi.UserCode.cs">
+      <BoundTo>f3814aa8-d43e-4293-b968-2e465bcb3d59</BoundTo>
+      <DependentUpon>SatisSiparisi.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b2fb7860-bd0c-401a-a212-a348def7a05f</id>
+    </Compile>
+    <Compile Include="StartAUT.cs">
+      <BoundTo>a68e03fc-e1a8-4899-a262-aa8045a61f98</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>061f6ec6-c5cc-49f1-9444-c687a49d48dc</id>
+    </Compile>
+    <Compile Include="StartAUT.UserCode.cs">
+      <BoundTo>a68e03fc-e1a8-4899-a262-aa8045a61f98</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a81d6a70-e65d-4575-a9f3-b6cfe54f856f</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AlimSiparisi.rxrec">
+      <BoundTo>612ddaa9-3fc7-4dc3-863c-e77a47c4cdb9</BoundTo>
+      <id>d0663eed-c013-44a3-83dd-94582950bf67</id>
+      <recordtableid>628c2f76-0320-4d0d-9750-5eb26cbf72f1</recordtableid>
+    </None>
+    <None Include="app.config">
+      <id>a50b6132-e381-40de-9c4e-aec126fb2e4a</id>
+    </None>
+    <None Include="CloseAUT.rxrec">
+      <BoundTo>612ddaa9-3fc7-4dc3-863c-e77a47c4cdb9</BoundTo>
+      <id>540df50d-59ca-4d67-ab3f-a0a0b5cf7828</id>
+      <recordtableid>7a183692-0b29-4f59-ab45-599f876180d2</recordtableid>
+    </None>
+    <None Include="CoralReefTestRepository.rximg">
+      <BoundTo>612ddaa9-3fc7-4dc3-863c-e77a47c4cdb9</BoundTo>
+      <DependentUpon>CoralReefTestRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>2ccbc3b6-a6e4-4ecb-a725-08f2ac2decab</id>
+    </None>
+    <None Include="CoralReefTestRepository.rxrep">
+      <id>612ddaa9-3fc7-4dc3-863c-e77a47c4cdb9</id>
+      <repoid>4bdd301b-782e-4439-8fa3-ae727cf7c9c6</repoid>
+      <reporootid>42dfcedf-318e-46e3-9953-ed41d0550cbe</reporootid>
+    </None>
+    <None Include="GirisYap.rxrec">
+      <BoundTo>612ddaa9-3fc7-4dc3-863c-e77a47c4cdb9</BoundTo>
+      <id>92580fde-aa79-4d5d-b954-cee5d37b0ca1</id>
+      <recordtableid>1216d236-0941-4eb6-bc0b-82a327fd643a</recordtableid>
+    </None>
+    <None Include="IslemAra.rxrec">
+      <BoundTo>612ddaa9-3fc7-4dc3-863c-e77a47c4cdb9</BoundTo>
+      <id>fb5f7ceb-5187-4344-9ee5-79c9ef6b1582</id>
+      <recordtableid>4ae15eb5-5b46-41d3-8464-ed0ffa17b771</recordtableid>
+    </None>
+    <None Include="SatisSiparisi.rxrec">
+      <BoundTo>612ddaa9-3fc7-4dc3-863c-e77a47c4cdb9</BoundTo>
+      <id>f3814aa8-d43e-4293-b968-2e465bcb3d59</id>
+      <recordtableid>0891341f-c7c8-40d7-b385-71dbae6ec49b</recordtableid>
+    </None>
+    <None Include="StartAUT.rxrec">
+      <BoundTo>612ddaa9-3fc7-4dc3-863c-e77a47c4cdb9</BoundTo>
+      <id>a68e03fc-e1a8-4899-a262-aa8045a61f98</id>
+      <recordtableid>a0c0c274-adc5-42c5-9048-f7d3ce5c4810</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CoralReefTest.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>94d4f8d2-2f78-4662-bc76-a5d68496916f</id>
+    </Content>
+    <Content Include="CoralReefTest.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>ccd557d2-afa1-4bbb-9652-1163a3d76e5f</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

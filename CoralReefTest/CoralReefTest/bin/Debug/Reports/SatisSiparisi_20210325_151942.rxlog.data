@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.55s"
+		durationms="9546"
+		type="root"
+		rid="2ab384fed1c037a5"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="TEST"
+		rxversion="9.3.2.0"
+		host="APP02"
+		osversion="Windows Server 2012 R2 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="25.3.2021 15:19:45"
+		timestampiso="2021-03-25T12:19:45"
+		endtime="25.3.2021 15:19:55"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SatisSiparisi">
+		<detail>
+			SatisSiparisi
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.233"
+			timeRelativeToTestModuleStartTime="00:07.233"
+			timeWallClock="15:19:52"
+			time="00:07.233"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>satisSiparisiFisNo
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.258"
+			timeRelativeToTestModuleStartTime="00:07.258"
+			timeWallClock="15:19:52"
+			time="00:07.258"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeContains (Text&gt;'&#220;retim emrinde kullan&#305;lacak yar&#305; mam&#252;ller i&#231;inde &#252;retim emri olu&#351;turulsun mu ?') on item 'CoralReef1.MessageLabel'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='CoralReef']/text[@visible='True' and @accessiblerole='StaticText']"
+				itempath="text[@visible='True' and @accessiblerole='StaticText']"
+				fullname="CoralReefTestRepository.CoralReef1.MessageLabel"
+				id="2652e35bb0b041f980d69965992c6f3c"
+				timeout="60000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+				codeline="95"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.246"
+			timeRelativeToTestModuleStartTime="00:09.246"
+			timeWallClock="15:19:54"
+			time="00:09.246"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'CoralReef' (pid 3624)<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+				codeline="96"
+				loglvl="Warn"
+				itemindex="19">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.543"
+			timeRelativeToTestModuleStartTime="00:09.543"
+			timeWallClock="15:19:55"
+			time="00:09.543"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'CoralReefTestRepository.CoralReef1.MessageLabel' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='CoralReef']/text[@visible='True' and @accessiblerole='StaticText']"
+				itempath="text[@visible='True' and @accessiblerole='StaticText']"
+				fullname="CoralReefTestRepository.CoralReef1.MessageLabel"
+				id="2652e35bb0b041f980d69965992c6f3c"
+				timeout="60000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\SatisSiparisi.cs"
+				codeline="96"
+				loglvl="Success"
+				itemindex="19">
+			</metainfo>
+		</item>
+	</activity>
+</report>

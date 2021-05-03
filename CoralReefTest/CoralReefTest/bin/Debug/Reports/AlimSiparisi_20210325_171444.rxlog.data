@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.2m"
+		durationms="69070"
+		type="root"
+		rid="19bcfdde5ed3b202"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="TEST"
+		rxversion="9.3.2.0"
+		host="APP02"
+		osversion="Windows Server 2012 R2 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="25.3.2021 17:14:48"
+		timestampiso="2021-03-25T14:14:48"
+		endtime="25.3.2021 17:15:57"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AlimSiparisi">
+		<detail>
+			AlimSiparisi
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.873"
+			timeRelativeToTestModuleStartTime="00:07.873"
+			timeWallClock="17:14:56"
+			time="00:07.873"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varAlimSiparisiFisNo
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.899"
+			timeRelativeToTestModuleStartTime="00:07.899"
+			timeWallClock="17:14:56"
+			time="00:07.899"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='False') on item 'MainForm.Onayla'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Default']/button[121]"
+				itempath="?/?/container[@accessiblename='Lower Ribbon']/?/?/toolbar[@accessiblename='Default']/button[121]"
+				fullname="CoralReefTestRepository.MainForm.Onayla"
+				id="ed90f603f4e04ea7a66b5709571f7bee"
+				timeout="150000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\AlimSiparisi.cs"
+				codeline="95"
+				itemindex="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.410"
+			timeRelativeToTestModuleStartTime="00:10.410"
+			timeWallClock="17:14:58"
+			time="00:10.410"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'CoralReef' (pid 4320)<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\AlimSiparisi.cs"
+				codeline="96"
+				loglvl="Warn"
+				itemindex="20">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:09.072"
+			timeRelativeToTestModuleStartTime="01:09.072"
+			timeWallClock="17:15:57"
+			time="01:09.072"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

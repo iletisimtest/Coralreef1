@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="16.85s"
+		durationms="16854"
+		type="root"
+		rid="5a1dcd9aa9d5a62"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="TEST"
+		rxversion="9.3.2.0"
+		host="APP02"
+		osversion="Windows Server 2012 R2 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="24.3.2021 14:50:10"
+		timestampiso="2021-03-24T11:50:10"
+		endtime="24.3.2021 14:50:27"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.378"
+			timeRelativeToTestModuleStartTime="00:09.378"
+			timeWallClock="14:50:19"
+			time="00:09.378"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.DockPanelNavigation.TextBoxMaskBox' at 81;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']//container[@controlname='FindControlCore']/container[@controlname='layoutControl1']/?/?/text[@controltypename='TextBoxMaskBox']"
+				itempath=".//container[@controlname='FindControlCore']/container[@controlname='layoutControl1']/?/?/text[@controltypename='TextBoxMaskBox']"
+				fullname="CoralReefTestRepository.MainForm.DockPanelNavigation.TextBoxMaskBox"
+				id="f983b16397014cdb8f0252bd821db7de"
+				timeout="180000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.700"
+			timeRelativeToTestModuleStartTime="00:11.700"
+			timeWallClock="14:50:21"
+			time="00:11.700"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'CoralReef' (pid 1120)<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\Recording1.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.622"
+			timeRelativeToTestModuleStartTime="00:13.622"
+			timeWallClock="14:50:23"
+			time="00:13.622"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Satış Siparişi' with focus on 'MainForm.DockPanelNavigation.TextBoxMaskBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']//container[@controlname='FindControlCore']/container[@controlname='layoutControl1']/?/?/text[@controltypename='TextBoxMaskBox']"
+				itempath=".//container[@controlname='FindControlCore']/container[@controlname='layoutControl1']/?/?/text[@controltypename='TextBoxMaskBox']"
+				fullname="CoralReefTestRepository.MainForm.DockPanelNavigation.TextBoxMaskBox"
+				id="f983b16397014cdb8f0252bd821db7de"
+				timeout="180000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.480"
+			timeRelativeToTestModuleStartTime="00:14.480"
+			timeWallClock="14:50:24"
+			time="00:14.480"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.DockPanelNavigation.ButtonBul' at 35;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']//container[@controlname='FindControlCore']/?/?/element[@controlname='btFind']/button[@accessiblename='Bul']"
+				itempath=".//container[@controlname='FindControlCore']/?/?/element[@controlname='btFind']/button[@accessiblename='Bul']"
+				fullname="CoralReefTestRepository.MainForm.DockPanelNavigation.ButtonBul"
+				id="a098d5ade57e4f8fb9b35d09a1c2ec5d"
+				timeout="180000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.379"
+			timeRelativeToTestModuleStartTime="00:15.379"
+			timeWallClock="14:50:25"
+			time="00:15.379"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.DockPanelNavigation.CaptionRow0' at 33;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/container[@controlname='dockPanelNavigation']//tree[@accessiblerole='Outline']/?/?/treeitem[@accessiblename='Düğüm0']/cell[@accessiblename='Caption row 0']"
+				itempath=".//tree[@accessiblerole='Outline']/?/?/treeitem[@accessiblename='Düğüm0']/cell[@accessiblename='Caption row 0']"
+				fullname="CoralReefTestRepository.MainForm.DockPanelNavigation.CaptionRow0"
+				id="22fcab53f4e24667a2d01399f0c88a6e"
+				timeout="180000"
+				codefile="C:\Users\TEST\Documents\Ranorex\RanorexStudio Projects\CoralReefTest\CoralReefTest\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
